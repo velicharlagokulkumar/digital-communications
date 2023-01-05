@@ -28,8 +28,8 @@ for i in range(0,maxrange-1):
 	test = (err[i+1]-err[i])/(x[i+1]-x[i])
 	pdf.append(test) #storing the pdf values in a list
 
-#def chi_pdf(x):
-	#return x*exp(-x**2/2)
+def chi_pdf(x):
+	return x*exp(-x**2/2)
 	
 vec_chi_pdf = scipy.vectorize(chi_pdf)
 

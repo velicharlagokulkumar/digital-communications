@@ -17,8 +17,8 @@ for i in range(0,100):
 	err_n = np.size(err_ind) #computing the probability
 	err.append(err_n/simlen) #storing the probability values in a list
 
-#def chi_cdf(x):
-  #return 1-exp(-(x**2)/2)
+def chi_cdf(x):
+  return 1-exp(-(x**2)/2)
 
 vec_chi=scipy.vectorize(chi_cdf)	
 plt.plot(x.T, err)#plotting the CDF

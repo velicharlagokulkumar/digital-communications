@@ -1,0 +1,1585 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  5 JAN 2023 11:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04>
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/geometry\geometry.cfg)
+) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/gauss\gauss.sty
+Package: gauss 2003/01/14
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen147
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks19
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks20
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g@trash=\box53
+\g@matrixbox=\box54
+\g@eastbox=\box55
+\g@northbox=\box56
+\g@label=\box57
+\g@b@tmp=\box58
+\g@b@tmpa=\box59
+\g@b@tmpb=\box60
+\g@maxrow=\count274
+\g@maxcol=\count275
+\g@maxrow@old=\count276
+\g@maxcol@old=\count277
+\g@c@tmp=\count278
+\g@c@tmpa=\count279
+\g@axisHeight=\dimen156
+\g@linethickness=\dimen157
+\g@tab=\dimen158
+\g@arrowht=\dimen159
+\g@arrowwd=\dimen160
+\g@d@tmp=\dimen161
+\g@d@tmpa=\dimen162
+\g@d@tmpb=\dimen163
+\g@d@tmpc=\dimen164
+\g@d@tmpd=\dimen165
+\g@d@tmpe=\dimen166
+\g@loopCount=\count280
+\g@loopEnd=\count281
+\g@loopStep=\count282
+\colarrowsep=\dimen167
+\rowarrowsep=\dimen168
+\opskip=\dimen169
+\labelskip=\dimen170
+\colopminsize=\dimen171
+\rowopminsize=\dimen172
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/kvsetkeys\kvsetkeys.
+sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pdfescape\pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/letltxmacro\letltxmacr
+o.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count283
+)
+\@linkdim=\dimen175
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/etexcmds\etexcmds.st
+y
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count286
+ (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count287
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen176
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/bigintcalc\bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count288
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring ON on input line 6042.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/uniquecounter\unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip52
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count294
+)) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/basiclayer\pgf.sty
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfuti
+l-common.tex
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfuti
+l-common-lists.tex))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box61
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf\pgf.revision.tex
+)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfkey
+sfiltered.code.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count299
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgf.
+cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count300
+\pgfsyssoftpath@bigbuffer@items=\count301
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex-dev/graphics\mathcolor
+.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathcalc
+.code.tex
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count302
+\pgfmath@box=\box62
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count303
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count304
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen266
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen270
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count305
+\pgf@shadingcount=\count306
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box66
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box67
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgfkey
+s.code.tex))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/math\pgfmath.cod
+e.tex)
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count307
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count308
+\tikznumberofchildren=\count309
+\tikznumberofcurrentchild=\count310
+\tikz@fig@count=\count311
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count312
+\pgfmatrixcurrentcolumn=\count313
+\pgf@matrix@numberofcolumns=\count314
+)
+\tikz@expandcount=\count315
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/karnaugh-map\karnaugh-
+map.sty
+Package: karnaugh-map 2022/01/15 v2.0 Draw Karnaugh Maps
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/l3packages/xparse\xpar
+se.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-07-04 L3 programming layer (loader) 
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box72
+))
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/xstring\xstring.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/xstring\xstring.tex
+\integerpart=\count317
+\decimalpart=\count318
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\@karnaughmap@var@colorindex@=\count319
+\@karnaughmap@var@colorindexnext@=\count320
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen285
+\ar@mcellbox=\box73
+\extrarowheight=\dimen286
+\NC@list=\toks35
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box74
+)
+\TX@col@width=\dimen287
+\TX@old@table=\dimen288
+\TX@old@col=\dimen289
+\TX@target=\dimen290
+\TX@delta=\dimen291
+\TX@cols=\count321
+\TX@ftn=\toks36
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/circuitikz\circuitikz.
+sty
+Package: circuitikz 2022/07/02{} The CircuiTikz circuit drawing package version
+ 1.5.3
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/libraries\pgflib
+raryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen292
+\pgfarrowlength=\dimen293
+\pgfarrowwidth=\dimen294
+\pgfarrowlinewidth=\dimen295
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/modules\pgfmodul
+ebending.code.tex
+File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/modules\pgfmodul
+enonlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgftransformnonlinearflatness=\dimen296
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/libraries\pgflib
+rarycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@curvilinear@time@a=\dimen297
+\pgf@curvilinear@length@a=\dimen298
+\pgf@curvilinear@length@b=\dimen299
+\pgf@curvilinear@length@c=\dimen300
+\pgf@curvilinear@length@d=\dimen301
+)
+\pgf@arrows@the@rigidity=\dimen302
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryfpu.code.tex
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/pgf/libraries\pgflib
+raryfpu.code.tex))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcirc.d
+efines.tex
+\pgf@circ@count@a=\count322
+\pgf@circ@count@b=\count323
+\pgf@circ@count@c=\count324
+\pgf@circ@res@up=\dimen303
+\pgf@circ@res@down=\dimen304
+\pgf@circ@res@zero=\dimen305
+\pgf@circ@res@left=\dimen306
+\pgf@circ@res@right=\dimen307
+\pgf@circ@res@other=\dimen308
+\pgf@circ@res@step=\dimen309
+\pgf@circ@res@temp=\dimen310
+\pgf@circ@Rlen=\dimen311
+\pgf@circ@scaled@Rlen=\dimen312
+\pgfstartlinewidth=\dimen313
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircut
+ils.tex
+\ctikz@scratchbox=\box75
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircpa
+th.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircsh
+apes.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircmo
+nopoles.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircbi
+poles.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcirctr
+ipoles.tex
+\pgf@circ@res@count=\count325
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircqu
+adpoles.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircmu
+ltipoles.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircla
+bel.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircvo
+ltage.tex
+\pgfcirc@labelshift=\dimen314
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcirccu
+rrent.tex)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/generic/circuitikz\pgfcircfl
+ow.tex))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen315
+\enit@toks=\toks37
+\enit@inbox=\box76
+\enit@count@id=\count326
+\enitdp@description=\count327
+) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/ncctools\watermark.sty
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lipsum\lipsum.sty
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count328
+\l__lipsum_a_int=\count329
+\l__lipsum_b_int=\count330
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lipsum\lipsum.ltd.tex)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/listings\listings.sty
+\lst@mode=\count331
+\lst@gtempboxa=\box77
+\lst@token=\toks38
+\lst@length=\count332
+\lst@currlwidth=\dimen316
+\lst@column=\count333
+\lst@pos=\count334
+\lst@lostspace=\dimen317
+\lst@width=\dimen318
+\lst@newlines=\count335
+\lst@lineno=\count336
+\lst@maxwidth=\dimen319
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count337
+\lst@skipnumbers=\count338
+\lst@framebox=\box78
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count339
+\float@exts=\toks39
+\float@box=\box79
+\@float@everytoks=\toks40
+\@floatcapt=\box80
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box81
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen320
+\ttl@minus=\dimen321
+\ttl@toksa=\toks41
+\titlewidth=\dimen322
+\titlewidthlast=\dimen323
+\titlewidthfirst=\dimen324
+) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks42
+\inpenc@posthook=\toks43
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+))
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count340
+\LTcapwidth=\dimen325
+\LT@head=\box82
+\LT@firsthead=\box83
+\LT@foot=\box84
+\LT@lastfoot=\box85
+\LT@gbox=\box86
+\LT@cols=\count341
+\LT@rows=\count342
+\c@LT@tables=\count343
+\c@LT@chunks=\count344
+\LT@p@ftn=\toks44
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count345
+\calc@Bcount=\count346
+\calc@Adimen=\dimen326
+\calc@Bdimen=\dimen327
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count347
+\calc@Cskip=\skip64
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count348
+\multirow@dima=\skip66
+\bigstrutjot=\dimen328
+) (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+68.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(49.79231pt, 752.57541pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=752.57541pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-59.47768pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count349
+\scratchdimen=\dimen329
+\scratchbox=\box87
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen330
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks46
+)
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 68.
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+\c@lstlisting=\count355
+\c@theorem=\count356
+\c@problem=\count357
+\c@proposition=\count358
+\c@lemma=\count359
+\c@example=\count360
+\c@rem=\count361
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+34.
+ (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+34.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+134.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+134.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 134.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 134.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 134.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134
+.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134
+.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 136.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 136.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 136.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+142.
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 142--143
+ [] 
+ []
+
+
+LaTeX Warning: Reference `fig:uni_cdf' on page 1 undefined on input line 150.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 152--153
+ [] 
+ []
+
+
+LaTeX Warning: File `images/uni_cdf.png' not found on input line 156.
+
+
+! Package pdftex.def Error: File `images/uni_cdf.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...degraphics[scale=0.5]{images/uni_cdf.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for OML+lmss on input line 
+206.
+LaTeX Font Info:    No file OMLlmss.fd. on input line 206.
+
+LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 206.
+
+LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
+212.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 212.
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 212.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+225.
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+! LaTeX Error: File `iith_logo3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 FILE 
+           *fp;
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[1{C:/Users/velic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.250 FILE 
+           *fp;]
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 282--283
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 320--321
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 328--329
+ [] 
+ []
+
+
+LaTeX Warning: File `images/gau_cdf.pdf' not found on input line 333.
+
+
+! Package pdftex.def Error: File `images/gau_cdf.pdf' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 ...degraphics[scale=0.5]{images/gau_cdf.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.341 \end{align}
+                 ]
+
+LaTeX Warning: Reference `fig:gauss_pdf' on page 3 undefined on input line 344.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 346--347
+ [] 
+ []
+
+
+LaTeX Warning: File `images/gau_pdf.pdf' not found on input line 350.
+
+
+! Package pdftex.def Error: File `images/gau_pdf.pdf' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 ...degraphics[scale=0.5]{images/gau_pdf.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 381--382
+ [] 
+ []
+
+
+LaTeX Warning: File `images/quantile.png' not found on input line 428.
+
+
+! Package pdftex.def Error: File `images/quantile.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ...egraphics[scale=0.5]{images/quantile.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `eq:probman_cdf_V_temp' on page 3 undefined on input l
+ine 452.
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.462 \end{multline}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.462 \end{multline}
+                    ]
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 509--510
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 512--513
+ [] 
+ []
+
+<images/6.1.1.cdf.png, id=195, 390.45876pt x 262.9825pt>
+File: images/6.1.1.cdf.png Graphic file (type png)
+<use images/6.1.1.cdf.png>
+Package pdftex.def Info: images/6.1.1.cdf.png  used on input line 518.
+(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
+<images/6.1.1.pdf.png, id=197, 391.4625pt x 269.005pt>
+File: images/6.1.1.pdf.png Graphic file (type png)
+<use images/6.1.1.pdf.png>
+Package pdftex.def Info: images/6.1.1.pdf.png  used on input line 519.
+(pdftex.def)             Requested size: 195.73076pt x 134.50217pt.
+<images/6.1.2.png, id=198, 390.45876pt x 262.9825pt>
+File: images/6.1.2.png Graphic file (type png)
+<use images/6.1.2.png>
+Package pdftex.def Info: images/6.1.2.png  used on input line 543.
+(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
+
+LaTeX Warning: Reference `fig:probman_trans_cdf_A' on page 4 undefined on input
+ line 556.
+
+
+LaTeX Warning: Reference `fig:probman_trans_PDf_A' on page 4 undefined on input
+ line 556.
+
+<images/6.1.3.cdf.png, id=199, 390.45876pt x 262.9825pt>
+File: images/6.1.3.cdf.png Graphic file (type png)
+<use images/6.1.3.cdf.png>
+Package pdftex.def Info: images/6.1.3.cdf.png  used on input line 561.
+(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
+<images/6.1.3.pdf.png, id=200, 391.4625pt x 264.99pt>
+File: images/6.1.3.pdf.png Graphic file (type png)
+<use images/6.1.3.pdf.png>
+Package pdftex.def Info: images/6.1.3.pdf.png  used on input line 563.
+(pdftex.def)             Requested size: 195.73076pt x 132.49467pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--590
+
+ []
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.612 \end{align}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.612 \end{align}
+                  <./images/6.1.1.cdf.png> <./images/6.1.1.pdf.png> <./images/6
+.1.2.png>]
+
+LaTeX Warning: Reference `pe(N)' on page 5 undefined on input line 657.
+
+
+LaTeX Warning: Reference `ch4_sim' on page 5 undefined on input line 690.
+
+
+LaTeX Warning: Reference `ch4_anal' on page 5 undefined on input line 690.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--693
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--693
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 693--694
+ [] 
+ []
+
+<images/7.4.png, id=244, 416.55624pt x 266.9975pt>
+File: images/7.4.png Graphic file (type png)
+<use images/7.4.png>
+Package pdftex.def Info: images/7.4.png  used on input line 697.
+(pdftex.def)             Requested size: 208.2776pt x 133.49841pt.
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.702 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.702 \end{document}
+                     <./images/6.1.3.cdf.png> <./images/6.1.3.pdf.png>]
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.702 \end{document}
+                    
+
+ <./images/7.4.png>] (main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  EB201A1C63AD884D6ECE99EBA8F96D15;1285.
+ ) 
+Here is how much of TeX's memory you used:
+ 40655 strings out of 478338
+ 930400 string characters out of 2836231
+ 1765927 words of memory out of 3000000
+ 58305 multiletter control sequences out of 15000+600000
+ 540327 words of font info for 88 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,16n,89p,1195b,2066s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-rm.enc}{
+C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-ts1.enc}{C
+:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathex.enc}{
+C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathsy.enc}
+{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-rmtt.enc}<
+C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/p
+ublic/lm/lmex10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmmi10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmmi5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmmi7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmr10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmr5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmr7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/p
+ublic/lm/lmss10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmss12.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmss17.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmssbx10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/t
+ype1/public/lm/lmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
+type1/public/lm/lmsy7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
+type1/public/lm/lmtt10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (6 pages, 375223 bytes).
+PDF statistics:
+ 407 PDF objects out of 1000 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import scipy
 
 x = np.linspace(0,20,50)#points on the x axis
 simlen = int(1e7) #number of samples
@@ -30,5 +31,5 @@ plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_V(x)$')
 plt.legend(['simulated' , 'alpha=half','alpha=1','alpha=2'])
-plt.savefig('7.1.2.pdf')
+plt.savefig('7.1.2.png')
 plt.show()
