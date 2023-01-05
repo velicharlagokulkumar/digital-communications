@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  5 JAN 2023 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  5 JAN 2023 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,7 +981,7 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-No file main.aux.
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1002,6 +1002,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1063,6 +1064,7 @@ cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 68.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1075,7 +1077,8 @@ Package hyperref Info: Link coloring ON on input line 68.
 \c@rem=\count361
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 34.
- (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmr.fd
+
+(C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
@@ -1158,22 +1161,11 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 152--153
  [] 
  []
 
-
-LaTeX Warning: File `images/uni_cdf.png' not found on input line 156.
-
-
-! Package pdftex.def Error: File `images/uni_cdf.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 ...degraphics[scale=0.5]{images/uni_cdf.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images/uni_cdf.pdf, id=40, 462.52798pt x 346.89601pt>
+File: images/uni_cdf.pdf Graphic file (type pdf)
+<use images/uni_cdf.pdf>
+Package pdftex.def Info: images/uni_cdf.pdf  used on input line 156.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 LaTeX Font Info:    Trying to load font information for OML+lmss on input line 
 206.
 LaTeX Font Info:    No file OMLlmss.fd. on input line 206.
@@ -1195,19 +1187,11 @@ LaTeX Font Info:    Trying to load font information for TS1+lmss on input line
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-! LaTeX Error: File `iith_logo3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 FILE 
-           *fp;
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./images//iith_logo3.png, id=41, 1116.17pt x 1045.9075pt>
+File: ./images//iith_logo3.png Graphic file (type png)
+<use ./images//iith_logo3.png>
+Package pdftex.def Info: ./images//iith_logo3.png  used on input line 229.
+(pdftex.def)             Requested size: 145.1072pt x 135.97275pt.
 
 [1{C:/Users/velic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1218,8 +1202,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 FILE 
-           *fp;]
+l.229 double 
+             x, temp=0.0; <./images//iith_logo3.png> <./images/uni_cdf.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 282--282
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
@@ -1264,34 +1248,12 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 328--329
  [] 
  []
 
-
-LaTeX Warning: File `images/gau_cdf.pdf' not found on input line 333.
-
-
-! Package pdftex.def Error: File `images/gau_cdf.pdf' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.333 ...degraphics[scale=0.5]{images/gau_cdf.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.341 \end{align}
-                 ]
-
-LaTeX Warning: Reference `fig:gauss_pdf' on page 3 undefined on input line 344.
-
-
-
+<images/gau_cdf.pdf, id=119, 462.52798pt x 346.89601pt>
+File: images/gau_cdf.pdf Graphic file (type pdf)
+<use images/gau_cdf.pdf>
+Package pdftex.def Info: images/gau_cdf.pdf  used on input line 333.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 346--346
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
@@ -1306,22 +1268,11 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 346--347
  [] 
  []
 
-
-LaTeX Warning: File `images/gau_pdf.pdf' not found on input line 350.
-
-
-! Package pdftex.def Error: File `images/gau_pdf.pdf' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.350 ...degraphics[scale=0.5]{images/gau_pdf.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images/gau_pdf.pdf, id=202, 462.52798pt x 346.89601pt>
+File: images/gau_pdf.pdf Graphic file (type pdf)
+<use images/gau_pdf.pdf>
+Package pdftex.def Info: images/gau_pdf.pdf  used on input line 350.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 381--381
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
@@ -1337,39 +1288,24 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 381--382
  [] 
  []
 
-
-LaTeX Warning: File `images/quantile.png' not found on input line 428.
-
-
-! Package pdftex.def Error: File `images/quantile.png' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.428 ...egraphics[scale=0.5]{images/quantile.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `eq:probman_cdf_V_temp' on page 3 undefined on input l
-ine 452.
-
+<images/5.3.pdf, id=204, 462.52798pt x 346.89601pt>
+File: images/5.3.pdf Graphic file (type pdf)
+<use images/5.3.pdf>
+Package pdftex.def Info: images/5.3.pdf  used on input line 428.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.450 \end{align}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.462 \end{multline}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.462 \end{multline}
-                    ]
+l.450 \end{align}
+                  <./images/gau_cdf.pdf> <./images/gau_pdf.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 509--509
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
@@ -1399,157 +1335,144 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 512--513
  [] 
  []
 
-<images/6.1.1.cdf.png, id=195, 390.45876pt x 262.9825pt>
-File: images/6.1.1.cdf.png Graphic file (type png)
-<use images/6.1.1.cdf.png>
-Package pdftex.def Info: images/6.1.1.cdf.png  used on input line 518.
+<images/7.1.1_CDF.pdf, id=314, 462.52798pt x 346.89601pt>
+File: images/7.1.1_CDF.pdf Graphic file (type pdf)
+<use images/7.1.1_CDF.pdf>
+Package pdftex.def Info: images/7.1.1_CDF.pdf  used on input line 518.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<images/7.1.1_PDF.pdf, id=315, 462.52798pt x 346.89601pt>
+File: images/7.1.1_PDF.pdf Graphic file (type pdf)
+<use images/7.1.1_PDF.pdf>
+Package pdftex.def Info: images/7.1.1_PDF.pdf  used on input line 524.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<images/7.1.2.png, id=316, 390.45876pt x 262.9825pt>
+File: images/7.1.2.png Graphic file (type png)
+<use images/7.1.2.png>
+Package pdftex.def Info: images/7.1.2.png  used on input line 551.
 (pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
-<images/6.1.1.pdf.png, id=197, 391.4625pt x 269.005pt>
-File: images/6.1.1.pdf.png Graphic file (type png)
-<use images/6.1.1.pdf.png>
-Package pdftex.def Info: images/6.1.1.pdf.png  used on input line 519.
-(pdftex.def)             Requested size: 195.73076pt x 134.50217pt.
-<images/6.1.2.png, id=198, 390.45876pt x 262.9825pt>
-File: images/6.1.2.png Graphic file (type png)
-<use images/6.1.2.png>
-Package pdftex.def Info: images/6.1.2.png  used on input line 543.
-(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
-
-LaTeX Warning: Reference `fig:probman_trans_cdf_A' on page 4 undefined on input
- line 556.
-
-
-LaTeX Warning: Reference `fig:probman_trans_PDf_A' on page 4 undefined on input
- line 556.
-
-<images/6.1.3.cdf.png, id=199, 390.45876pt x 262.9825pt>
-File: images/6.1.3.cdf.png Graphic file (type png)
-<use images/6.1.3.cdf.png>
-Package pdftex.def Info: images/6.1.3.cdf.png  used on input line 561.
-(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
-<images/6.1.3.pdf.png, id=200, 391.4625pt x 264.99pt>
-File: images/6.1.3.pdf.png Graphic file (type png)
-<use images/6.1.3.pdf.png>
-Package pdftex.def Info: images/6.1.3.pdf.png  used on input line 563.
-(pdftex.def)             Requested size: 195.73076pt x 132.49467pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 587--590
-
- []
-
 [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.562 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.612 \end{align}
-                 
+l.562 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.612 \end{align}
-                  <./images/6.1.1.cdf.png> <./images/6.1.1.pdf.png> <./images/6
-.1.2.png>]
-
-LaTeX Warning: Reference `pe(N)' on page 5 undefined on input line 657.
-
-
-LaTeX Warning: Reference `ch4_sim' on page 5 undefined on input line 690.
-
-
-LaTeX Warning: Reference `ch4_anal' on page 5 undefined on input line 690.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 690--692
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 693--693
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 693--693
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 693--694
- [] 
- []
-
-<images/7.4.png, id=244, 416.55624pt x 266.9975pt>
-File: images/7.4.png Graphic file (type png)
-<use images/7.4.png>
-Package pdftex.def Info: images/7.4.png  used on input line 697.
-(pdftex.def)             Requested size: 208.2776pt x 133.49841pt.
-[5
+l.562 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.702 \end{document}
-                    
+l.562 \end{equation}
+                     <./images/5.3.pdf> <./images/7.1.1_CDF.pdf> <./images/7.1.
+1_PDF.pdf> <./images/7.1.2.png>]
+
+LaTeX Warning: Reference `fig:probman_trans_cdf_A' on page 5 undefined on input
+ line 564.
+
+
+LaTeX Warning: Reference `fig:probman_trans_PDf_A' on page 5 undefined on input
+ line 564.
+
+<images/7.1.3_CDF.pdf, id=433, 462.52798pt x 346.89601pt>
+File: images/7.1.3_CDF.pdf Graphic file (type pdf)
+<use images/7.1.3_CDF.pdf>
+Package pdftex.def Info: images/7.1.3_CDF.pdf  used on input line 569.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<images/7.1.3_PDF.pdf, id=434, 462.52798pt x 346.89601pt>
+File: images/7.1.3_PDF.pdf Graphic file (type pdf)
+<use images/7.1.3_PDF.pdf>
+Package pdftex.def Info: images/7.1.3_PDF.pdf  used on input line 571.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--598
+
+ []
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.702 \end{document}
-                     <./images/6.1.3.cdf.png> <./images/6.1.3.pdf.png>]
-[6
+l.688 \end{align}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.702 \end{document}
-                    
+l.688 \end{align}
+                  <./images/7.1.3_CDF.pdf> <./images/7.1.3_PDF.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 698--700
 
- <./images/7.4.png>] (main.aux)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 701--702
+ [] 
+ []
+
+<images/7.2.pdf, id=522, 462.52798pt x 346.89601pt>
+File: images/7.2.pdf Graphic file (type pdf)
+<use images/7.2.pdf>
+Package pdftex.def Info: images/7.2.pdf  used on input line 705.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+[6
+
+ <./images/7.2.pdf>] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EB201A1C63AD884D6ECE99EBA8F96D15;1285.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: EB201A1C63AD884D6ECE99EBA8F96D15;1285.
  ) 
 Here is how much of TeX's memory you used:
- 40655 strings out of 478338
- 930400 string characters out of 2836231
- 1765927 words of memory out of 3000000
- 58305 multiletter control sequences out of 15000+600000
+ 40539 strings out of 478338
+ 927636 string characters out of 2836231
+ 1734565 words of memory out of 3000000
+ 58199 multiletter control sequences out of 15000+600000
  540327 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,89p,1195b,2066s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1577,9 +1500,9 @@ ype1/public/lm/lmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
 type1/public/lm/lmsy7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
 type1/public/lm/lmtt10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts
 /type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (6 pages, 375223 bytes).
+Output written on main.pdf (6 pages, 482049 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
+ 697 PDF objects out of 1000 (max. 8388607)
  198 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
