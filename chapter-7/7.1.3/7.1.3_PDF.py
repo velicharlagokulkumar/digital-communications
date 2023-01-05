@@ -1,15 +1,9 @@
-#6.1.3 PDF
 import numpy as np
 import mpmath as mp
 import scipy 
 import matplotlib.pyplot as plt
 from math import exp
 from math import sqrt
-#if using termux
-import subprocess
-import shlex
-#end if
-
 
 maxrange=100
 maxlim=10

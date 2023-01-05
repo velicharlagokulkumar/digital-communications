@@ -1,4 +1,3 @@
-#6.1.1 PDF
 import numpy as np
 import mpmath as mp
 import scipy 

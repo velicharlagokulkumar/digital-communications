@@ -1,5 +1,3 @@
-#Importing numpy, scipy, mpmath and pyplot
-#6.1.3 CDF
 import numpy as np
 import matplotlib.pyplot as plt
 from math import sqrt
