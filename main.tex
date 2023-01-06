@@ -131,11 +131,28 @@ columns=fullflexible
 %\counterwithin{equation}{enumi}
 
 	\maketitle
+ \section{Sum of Independent Random Variables}
+ \begin {enumerate}
+ \item 
+The experiment of rolling the dice was simulated using Python for 10000 samples.  These were generated using Python libraries for uniform distribution. The frequencies for each outcome were then used to compute the resulting pmf, which  is plotted in Figure \ref{fig:dice}.  The theoretical pmf obtained in  is plotted for comparison.  
+%
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{images/4.1.4.pdf}
+\caption{Plot of $p_X(n)$.  Simulations are close to the analysis. }
+\label{fig:dice}
+\end{figure}
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-4/4.1.4/4.1.4.py}}}
+\end{center}
+\end{enumerate}
+
+
+
 	\section{Random numbers}
  \subsection{Uniform Random Numbers}
 Let $U$ be a uniform random variable between 0 and 1.
-\begin{enumerate}[label=\thesection.\arabic*
-,ref=\thesection.\theenumi]
+\begin{enumerate}
 \item Generate $10^6$ samples of $U$ using a C program and save into a file called uni.dat .
 
 \begin{center}
@@ -147,14 +164,15 @@ Load the uni.dat file into python and plot the empirical CDF of $U$ using the sa
 F_{U}(x) = \pr{U \le x}
 \end{align}
 \\
-\solution  The following code plots Fig. \ref{fig:uni_cdf}
+\solution  The following code plots Fig. \ref{fig:cdf of u}
 \begin{center}
 \fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.1.2/cdf_plot.py}}}
 \end{center}
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/uni_cdf.pdf}
-\caption{CDF}
+\caption{CDF of U}
+\label{fig:cdf of u}
 \end{figure}
 \item
 Find a  theoretical expression for $F_{U}(x)$.
@@ -323,7 +341,7 @@ and save in a file called gau.dat
 \item
 Load gau.dat in python and plot the empirical CDF of $X$ using the samples in gau.dat. What properties does a CDF have?
 \\
-\solution The CDF of $X$ is plotted in Fig.
+\solution The CDF of $X$ is plotted in Fig. \ref{fig:gauss_cdf}
 \begin{center}
 \fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.2.2/cdf_plot.py}}}
 \end{center}
@@ -428,14 +446,19 @@ and plot its CDF.
 \includegraphics[scale=0.5]{images/5.3.pdf}
 \caption{CDF of V}
 \end{figure}
+
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_CDF.py}}}
+\end{center}
+
 \item Find a theoretical expression for $F_V(x)$.
 The CDF of $V$ is defined as 
 \begin{align}
-    F_V(v) &= pr(V \le v) \\
-           &= pr( -2 \ln(1-U)\le v) \\
-           &= pr(\ln(1-U) \ge -\frac{v}{2})\\
-           &= pr(1-U \ge \exp\brak{-\frac{v}{2}})\\
-           &= pr(U \le 1- \exp\brak{-\frac{v}{2}})\\
+    F_V(v) &= \pr{V \le v}\\
+           &= \pr{-2 \ln(1-U)\le v} \\
+           &= \pr{\ln(1-U) \ge -\frac{v}{2}}\\
+           &= \pr{1-U \ge \exp\brak{-\frac{v}{2}}}\\
+           &= \pr{U \le 1- \exp\brak{-\frac{v}{2}}}\\
            &= F_U\brak{1- \exp\brak{-\frac{v}{2}}}
 %           &=  (1-(exp(-v/2))
 \label{eq:probman_cdf_V_temp}
@@ -481,11 +504,56 @@ which is the CDF of the exponential distribution with parameter $\frac{1}{2}$.
 %
 \item Generate 
 	\begin{align}
-		T = U_1+U_2
+		Z = U_1+U_2
 	\end{align}
+
+
+ \begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\end{center}
+
+
 \item Find the CDF of $T$.
+ \begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\end{center}
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{images/5.4_cdf.pdf}
+\caption{CDF of Z}
+\end{figure}
+
 \item Find the PDF of $T$.
+ \begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{images/5.4_pdf.pdf}
+\caption{PDF of Z}
+\end{figure}
+
+ 
+ \begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\end{center}
 \item Find the theoretical expressions for the PDF and CDF of $T$.
+\begin{align}
+f(z) = 
+\begin{cases}
+z & 0 < z < 1  \\
+2-z & 1 \le z < 2 \\
+0 & otherwise
+\end{cases}
+\end{align}
+
+\begin{align}
+F_Z(z) = 
+\begin{cases}
+\frac{z^2}{2} & 0 < z < 1  \\
+2z-z^2-1 & 1 \le z < 2 \\
+1 & z>0
+\end{cases}
+\end{align}
+
+
 \item Verify your results through a plot. 
 \end{enumerate}
 
@@ -542,15 +610,25 @@ F_{V}(x) =
 %
 find $\alpha$.
 \\
+\solution
 For the value $\alpha=0.5$, the theory matches the simulation.  
-The following code generates the CDF of $V$ in Fig. 
-Fig. 
+The following code generates the CDF of $V$ in Fig. \ref{cdf_v}
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/7.1.2.png}
 \caption{CDF of $V$}
+\label{cdf_v}
 \end{figure}
+
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_CDF.py}}}
+\end{center}
+
+
+
+
+
 %
 %
 \item
@@ -560,16 +638,28 @@ Plot the CDF and PDf of
 \begin{equation}
 A = \sqrt{V}
 \end{equation}
-%
+
+$$
+\begin{aligned}
+F_A(a) & =\Pr{A<a} \\
+& =\Pr{\sqrt{V}<a} \\
+& =\Pr{\left(V<a^2\right)} \\
+& =F_V\left(a^2\right) \\
+& =1-\exp \left(-\frac{a^2}{2}\right)\\
+f(a)&=a \exp \left(-\frac{a^2}{2}\right)
+\end{aligned}
+$$
  The CDF and PDF of A are plotted in Figs. \ref{fig:probman_trans_cdf_A} and \ref{fig:probman_trans_PDf_A}
 using the codes below.
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/7.1.3_CDF.pdf}
-\caption{CDF}
+\caption{CDF of A}
+\label{fig:probman_trans_cdf_A}
 \includegraphics[scale=0.5]{images/7.1.3_PDF.pdf}
-\caption{PDF}
+\caption{PDF of A}
+\label{fig:probman_trans_PDf_A}
 \end{figure}
 
 \end{enumerate}
@@ -601,6 +691,7 @@ where $A$ is Raleigh with $E\sbrak{A^2} = \gamma, N \sim \mathcal{N}(0,1) \in \b
 \item
 Assuming that $N$ is a constant, find an expression for $P_e$.  Call this $P_e(N)$.
 \\
+\solution
 The estimated value $\hat{X}$ is given by
 \begin{align}
 \hat{X} = 
@@ -658,6 +749,7 @@ E\sbrak{g(X)} = \int_{-\infty}^{\infty}g(x)p_{X}(x)\, dx
 %
 Find $P_e = E\sbrak{P_e(N)}$.
 \\
+\solution
 Since $N \sim \mathcal{N}(0,1)$ ,
 \begin{align}
   p_N(x)= \frac{1}{\sqrt{2\pi}}\exp \brak{-\frac{x^2}{2} }\\

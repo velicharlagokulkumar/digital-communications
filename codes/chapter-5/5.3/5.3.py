@@ -3,11 +3,6 @@ import numpy as np
 from scipy.stats import uniform
 from matplotlib import pyplot as plt
 
-#if using termux
-import subprocess
-import shlex
-#end if
-
 
 def ecdf(a):
     x, counts = np.unique(a, return_counts=True)

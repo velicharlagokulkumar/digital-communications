@@ -1,4 +1,5 @@
 import numpy as np
+import mpmath as mp
 import matplotlib.pyplot as plt
 import scipy
 
@@ -13,11 +14,11 @@ for i in range(0,50):
 	err.append(err_n/simlen) #storing the probability values in a list
 
 def chi_cdf_ahalf(x): # if alpha=0.5
-  return 1-exp(-(x/2))
+  return 1-np.exp(-(x/2))
 def chi_cdf_a1(x):  #if alpha=1
-  return 1-exp(-(x))
+  return 1-np.exp(-(x))
 def chi_cdf_a2(x):   #if alpha=2
-  return 1-exp(-2*(x))
+  return 1-np.exp(-2*(x))
 
 
 vec_chi_ahalf=scipy.vectorize(chi_cdf_ahalf)
@@ -31,5 +32,5 @@ plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_V(x)$')
 plt.legend(['simulated' , 'alpha=half','alpha=1','alpha=2'])
-plt.savefig('7.1.2.png')
+plt.savefig('7.1.2.pdf')
 plt.show()

@@ -33,12 +33,13 @@ def chi_pdf(x):
 	
 vec_chi_pdf = scipy.vectorize(chi_pdf)
 
-plt.plot(x.T[0:(maxrange-1)],pdf)
-#plt.plot(x,vec_chi_pdf(x))#plotting the PDF
+
+plt.plot(x[0:(maxrange-1)].T,pdf,'o')
+plt.plot(x,vec_chi_pdf(x))#plotting the PDF
 plt.grid() #creating the grid
 plt.xlabel('$x_i$')
 plt.ylabel('$p_A(x_i)$')
-#plt.legend(["Numerical","Theory"])
+plt.legend(["Numerical","Theory"])
 
 plt.savefig('7.1.3_PDF.pdf')
 plt.show() #opening the plot window

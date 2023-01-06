@@ -10,7 +10,7 @@ x = np.linspace(-maxlim,maxlim,maxrange)#points on the x axis
 simlen = int(1e6) #number of samples
 err = [] #declaring probability list
 pdf = [] #declaring pdf list
-h = 2*maxlim/(maxrange-1);
+h = 2*maxlim/(maxrange-1)
 #randvar = np.random.normal(0,1,simlen)
 #randvar = np.loadtxt('uni.dat',dtype='double')
 randvar = np.loadtxt('gau.dat',dtype='double')

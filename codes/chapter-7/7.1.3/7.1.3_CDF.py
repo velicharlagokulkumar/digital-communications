@@ -4,6 +4,7 @@ from math import sqrt
 from math import exp
 import scipy
 
+maxrange=100
 x = np.linspace(0,10,100)#points on the x axis
 simlen = int(1e6) #number of samples
 err = [] #declaring probability list
@@ -20,12 +21,13 @@ for i in range(0,100):
 def chi_cdf(x):
   return 1-exp(-(x**2)/2)
 
-vec_chi=scipy.vectorize(chi_cdf)	
-plt.plot(x.T, err)#plotting the CDF
-#plt.plot(x,vec_chi(x))
+vec_chi=scipy.vectorize(chi_cdf)
+
+plt.plot(x[0:(maxrange)].T,err,'o')
+plt.plot(x,vec_chi(x))
 plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_A(x)$')
-#plt.legend(['simulated' , 'Theory'])
+plt.legend(['simulated' , 'Theory'])
 plt.savefig('7.1.3_CDF.pdf')
 plt.show()

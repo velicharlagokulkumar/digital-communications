@@ -29,17 +29,16 @@ for i in range(0,maxrange-1):
 	test = (err[i+1]-err[i])/(x[i+1]-x[i])
 	pdf.append(test) #storing the pdf values in a list
 
-#def chi_pdf(x):
-	#return exp(-x/2)/2
+def chi_pdf(x):
+	return exp(-x/2)/2
 	
-#vec_chi_pdf = scipy.vectorize(chi_pdf)
-
-plt.plot(x.T[0:(maxrange-1)],pdf)
-#plt.plot(x,vec_chi_pdf(x))#plotting the PDF
+vec_chi_pdf = scipy.vectorize(chi_pdf)
+plt.plot(x[0:(maxrange-1)].T,pdf,'o')
+plt.plot(x,vec_chi_pdf(x))#plotting the PDF
 plt.grid() #creating the grid
 plt.xlabel('$x_i$')
 plt.ylabel('$p_V(x_i)$')
-#plt.legend(["Numerical","Theory"])
+plt.legend(["Numerical","Theory"])
 
 plt.savefig('7.1.1_PDF.pdf')
 plt.show() #opening the plot window
