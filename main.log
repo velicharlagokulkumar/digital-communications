@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  9 JAN 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  9 JAN 2023 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,7 +981,17 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(main.aux)
+(main.aux
+
+LaTeX Warning: Label `eq:multivariate' multiply defined.
+
+
+LaTeX Warning: Label `eq:bivariate' multiply defined.
+
+
+LaTeX Warning: Label `eq:map_bfsk_dec' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1117,7 +1127,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/4.1.4.pdf, id=43, 462.52798pt x 346.89601pt>
+<images/4.1.4.pdf, id=63, 462.52798pt x 346.89601pt>
 File: images/4.1.4.pdf Graphic file (type pdf)
 <use images/4.1.4.pdf>
 Package pdftex.def Info: images/4.1.4.pdf  used on input line 142.
@@ -1178,12 +1188,12 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 170--171
  [] 
  []
 
-<images/uni_cdf.pdf, id=48, 462.52798pt x 346.89601pt>
+<images/uni_cdf.pdf, id=68, 462.52798pt x 346.89601pt>
 File: images/uni_cdf.pdf Graphic file (type pdf)
 <use images/uni_cdf.pdf>
 Package pdftex.def Info: images/uni_cdf.pdf  used on input line 174.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<./images//iith_logo3.png, id=49, 1116.17pt x 1045.9075pt>
+<./images//iith_logo3.png, id=69, 1116.17pt x 1045.9075pt>
 File: ./images//iith_logo3.png Graphic file (type png)
 <use ./images//iith_logo3.png>
 Package pdftex.def Info: ./images//iith_logo3.png  used on input line 214.
@@ -1272,7 +1282,7 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 347--348
  [] 
  []
 
-<images/gau_cdf.pdf, id=240, 462.52798pt x 346.89601pt>
+<images/gau_cdf.pdf, id=260, 462.52798pt x 346.89601pt>
 File: images/gau_cdf.pdf Graphic file (type pdf)
 <use images/gau_cdf.pdf>
 Package pdftex.def Info: images/gau_cdf.pdf  used on input line 352.
@@ -1292,7 +1302,7 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 365--366
  [] 
  []
 
-<images/gau_pdf.pdf, id=243, 462.52798pt x 346.89601pt>
+<images/gau_pdf.pdf, id=263, 462.52798pt x 346.89601pt>
 File: images/gau_pdf.pdf Graphic file (type pdf)
 <use images/gau_pdf.pdf>
 Package pdftex.def Info: images/gau_pdf.pdf  used on input line 369.
@@ -1324,7 +1334,7 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 455--456
  [] 
  []
 
-<images/5.3.pdf, id=373, 462.52798pt x 346.89601pt>
+<images/5.3.pdf, id=393, 462.52798pt x 346.89601pt>
 File: images/5.3.pdf Graphic file (type pdf)
 <use images/5.3.pdf>
 Package pdftex.def Info: images/5.3.pdf  used on input line 502.
@@ -1380,12 +1390,12 @@ Overfull \hbox (8.34724pt too wide) in paragraph at lines 574--575
  [] 
  []
 
-<images/5.4_cdf.pdf, id=469, 462.52798pt x 346.89601pt>
+<images/5.4_cdf.pdf, id=489, 462.52798pt x 346.89601pt>
 File: images/5.4_cdf.pdf Graphic file (type pdf)
 <use images/5.4_cdf.pdf>
 Package pdftex.def Info: images/5.4_cdf.pdf  used on input line 578.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/5.4_pdf.pdf, id=470, 462.52798pt x 346.89601pt>
+<images/5.4_pdf.pdf, id=490, 462.52798pt x 346.89601pt>
 File: images/5.4_pdf.pdf Graphic file (type pdf)
 <use images/5.4_pdf.pdf>
 Package pdftex.def Info: images/5.4_pdf.pdf  used on input line 586.
@@ -1435,12 +1445,12 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 640--641
  [] 
  []
 
-<images/7.1.1_CDF.pdf, id=474, 462.52798pt x 346.89601pt>
+<images/7.1.1_CDF.pdf, id=494, 462.52798pt x 346.89601pt>
 File: images/7.1.1_CDF.pdf Graphic file (type pdf)
 <use images/7.1.1_CDF.pdf>
 Package pdftex.def Info: images/7.1.1_CDF.pdf  used on input line 646.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/7.1.1_PDF.pdf, id=475, 462.52798pt x 346.89601pt>
+<images/7.1.1_PDF.pdf, id=495, 462.52798pt x 346.89601pt>
 File: images/7.1.1_PDF.pdf Graphic file (type pdf)
 <use images/7.1.1_PDF.pdf>
 Package pdftex.def Info: images/7.1.1_PDF.pdf  used on input line 652.
@@ -1471,7 +1481,7 @@ has been already used, duplicate ignored
 l.669 \end{equation}
                      <./images/5.4_cdf.pdf> <./images/5.4_pdf.pdf> <./images/7.
 1.1_CDF.pdf> <./images/7.1.1_PDF.pdf>]
-<images/7.1.2.png, id=656, 390.45876pt x 262.9825pt>
+<images/7.1.2.png, id=676, 390.45876pt x 262.9825pt>
 File: images/7.1.2.png Graphic file (type png)
 <use images/7.1.2.png>
 Package pdftex.def Info: images/7.1.2.png  used on input line 680.
@@ -1491,12 +1501,12 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 686--687
  [] 
  []
 
-<images/7.1.3_CDF.pdf, id=660, 462.52798pt x 346.89601pt>
+<images/7.1.3_CDF.pdf, id=680, 462.52798pt x 346.89601pt>
 File: images/7.1.3_CDF.pdf Graphic file (type pdf)
 <use images/7.1.3_CDF.pdf>
 Package pdftex.def Info: images/7.1.3_CDF.pdf  used on input line 718.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/7.1.3_PDF.pdf, id=661, 462.52798pt x 346.89601pt>
+<images/7.1.3_PDF.pdf, id=681, 462.52798pt x 346.89601pt>
 File: images/7.1.3_PDF.pdf Graphic file (type pdf)
 <use images/7.1.3_PDF.pdf>
 Package pdftex.def Info: images/7.1.3_PDF.pdf  used on input line 721.
@@ -1565,7 +1575,7 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 854--855
  [] 
  []
 
-<images/7.2.pdf, id=773, 462.52798pt x 346.89601pt>
+<images/7.2.pdf, id=793, 462.52798pt x 346.89601pt>
 File: images/7.2.pdf Graphic file (type pdf)
 <use images/7.2.pdf>
 Package pdftex.def Info: images/7.2.pdf  used on input line 858.
@@ -1574,10 +1584,6 @@ Package pdftex.def Info: images/7.2.pdf  used on input line 858.
 Overfull \hbox (20.49529pt too wide) in paragraph at lines 863--863
 |[]\OT1/lmss/bx/n/14.4 Bivariate Ran-dom Vari-ables: FSK| 
  []
-
-
-LaTeX Warning: Reference `fig:scatter_plt_y' on page 7 undefined on input line 
-903.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 905--905
@@ -1594,7 +1600,7 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 905--906
  [] 
  []
 
-<images/scatter_plot.png, id=775, 462.528pt x 346.896pt>
+<images/scatter_plot.png, id=796, 462.528pt x 346.896pt>
 File: images/scatter_plot.png Graphic file (type png)
 <use images/scatter_plot.png>
 Package pdftex.def Info: images/scatter_plot.png  used on input line 909.
@@ -1602,21 +1608,6 @@ Package pdftex.def Info: images/scatter_plot.png  used on input line 909.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 930.
 [7 <./images/7.2.pdf>]
-
-LaTeX Warning: Reference `eq:bivariate' on page 8 undefined on input line 967.
-
-
-LaTeX Warning: Reference `gauss_mutl_var1' on page 8 undefined on input line 99
-3.
-
-
-LaTeX Warning: Reference `gauss_mutl_var2' on page 8 undefined on input line 99
-3.
-
-
-LaTeX Warning: Reference `rho_sig_val' on page 8 undefined on input line 993.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1012--1012
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
@@ -1631,15 +1622,11 @@ Overfull \hbox (14.0377pt too wide) in paragraph at lines 1012--1013
  [] 
  []
 
-<images/ber_snr_plot.png, id=857, 462.528pt x 346.896pt>
+<images/ber_snr_plot.png, id=881, 462.528pt x 346.896pt>
 File: images/ber_snr_plot.png Graphic file (type png)
 <use images/ber_snr_plot.png>
 Package pdftex.def Info: images/ber_snr_plot.png  used on input line 1016.
 (pdftex.def)             Requested size: 251.07481pt x 188.30557pt.
-
-LaTeX Warning: Reference `eq:decision_rule' on page 8 undefined on input line 1
-032.
-
 [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
  has been already used, duplicate ignored
@@ -1653,35 +1640,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
                                                   \__shipout_drop_firstpage_...
 l.1042     \end{align}
                        <./images/scatter_plot.png> <./images/ber_snr_plot.png>]
-
-LaTeX Warning: Reference `fig:ber_snr_plot' on page 9 undefined on input line 1
-043.
-
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1049
 .
-
-LaTeX Warning: Reference `fig:bpsk_const' on page 9 undefined on input line 104
-9.
-
 Package epstopdf Info: Source file: <images/bpsk.eps>
 (epstopdf)                    date: 2023-01-09 09:03:20
 (epstopdf)                    size: 354312 bytes
 (epstopdf)             Output file: <images/bpsk-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:36:21
+(epstopdf)                    size: 9745 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/bpsk-eps-conv
 erted-to.pdf images/bpsk.eps>
 (epstopdf)             \includegraphics on input line 1059.
-runsystem(miktex-epstopdf --outfile=images/bpsk-eps-converted-to.pdf images/bps
-k.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <images/bpsk-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-01-09 14:36:21
-(epstopdf)                    size: 9745 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images/bpsk-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<images/bpsk-eps-converted-to.pdf, id=892, 562.1pt x 308.15125pt>
+<images/bpsk-eps-converted-to.pdf, id=919, 562.1pt x 308.15125pt>
 File: images/bpsk-eps-converted-to.pdf Graphic file (type pdf)
 <use images/bpsk-eps-converted-to.pdf>
 Package pdftex.def Info: images/bpsk-eps-converted-to.pdf  used on input line 1
@@ -1694,17 +1670,9 @@ Overfull \hbox (0.9929pt too wide) in paragraph at lines 1080--1082
  []
 
 
-LaTeX Warning: Reference `eq:ee18btech11042_8' on page 9 undefined on input lin
-e 1089.
-
-
 Overfull \hbox (7.03691pt too wide) in paragraph at lines 1088--1092
 \OT1/lmss/m/n/10 The above con-di-tion is known as the maximum-likelihood
  []
-
-
-LaTeX Warning: Reference `fig:bpsk_ber' on page 9 undefined on input line 1153.
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1155--1155
@@ -1725,20 +1693,17 @@ Package epstopdf Info: Source file: <images/bpsk2.eps>
 (epstopdf)                    date: 2023-01-09 09:03:20
 (epstopdf)                    size: 26265 bytes
 (epstopdf)             Output file: <images/bpsk2-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:36:55
+(epstopdf)                    size: 14820 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/bpsk2-eps-con
 verted-to.pdf images/bpsk2.eps>
 (epstopdf)             \includegraphics on input line 1160.
-runsystem(miktex-epstopdf --outfile=images/bpsk2-eps-converted-to.pdf images/bp
-sk2.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <images/bpsk2-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-01-09 14:36:55
-(epstopdf)                    size: 14820 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images/bpsk2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/bpsk2-eps-converted-to.pdf, id=894, 462.72874pt x 346.29375pt>
+<images/bpsk2-eps-converted-to.pdf, id=923, 462.72874pt x 346.29375pt>
 File: images/bpsk2-eps-converted-to.pdf Graphic file (type pdf)
 <use images/bpsk2-eps-converted-to.pdf>
 Package pdftex.def Info: images/bpsk2-eps-converted-to.pdf  used on input line 
@@ -1746,10 +1711,6 @@ Package pdftex.def Info: images/bpsk2-eps-converted-to.pdf  used on input line
 (pdftex.def)             Requested size: 251.07481pt x 187.8994pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:bfsk_const' on page 9 undefined on input line 117
-8.
 
 [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
@@ -1763,47 +1724,27 @@ Package epstopdf Info: Source file: <./images//bfsk_const.eps>
 (epstopdf)                    size: 321689 bytes
 (epstopdf)             Output file: <./images//bfsk_const-eps-converted-to.pdf>
 
+(epstopdf)                    date: 2023-01-09 14:36:58
+(epstopdf)                    size: 10643 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./images//bfsk_const
 -eps-converted-to.pdf ./images//bfsk_const.eps>
 (epstopdf)             \includegraphics on input line 1215.
-runsystem(miktex-epstopdf --outfile=./images//bfsk_const-eps-converted-to.pdf .
-/images//bfsk_const.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./images//bfsk_const-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2023-01-09 14:36:58
-(epstopdf)                    size: 10643 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images//bfsk_const-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images//bfsk_const-eps-converted-to.pdf, id=939, 517.935pt x 303.1325pt>
+<./images//bfsk_const-eps-converted-to.pdf, id=967, 517.935pt x 303.1325pt>
 File: ./images//bfsk_const-eps-converted-to.pdf Graphic file (type pdf)
 <use ./images//bfsk_const-eps-converted-to.pdf>
 Package pdftex.def Info: ./images//bfsk_const-eps-converted-to.pdf  used on inp
 ut line 1215.
 (pdftex.def)             Requested size: 251.07481pt x 146.9497pt.
 
-LaTeX Warning: Reference `fig:bfsk_const' on page 10 undefined on input line 12
-19.
-
-
 Overfull \hbox (2.70966pt too wide) in paragraph at lines 1232--1237
 \OT1/lmss/m/n/10 where $\OML/lmm/b/it/10 ^^V$ \OT1/lmss/m/n/10 is the mean vec-
 tor, $\OML/lmm/b/it/10 ^^[ \OT1/lmr/m/n/10 = \OML/lmm/m/it/10 E[] []$
  []
-
-
-LaTeX Warning: Reference `eq:bivariate' on page 10 undefined on input line 1268
-.
-
-
-LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
-268.
-
-
-LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
-268.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1267--1270
@@ -1827,14 +1768,6 @@ Overfull \hbox (9.56084pt too wide) detected at line 1285
  []
 
 
-LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
-310.
-
-
-LaTeX Warning: Reference `fig:bfsk_ber' on page 10 undefined on input line 1333
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1335--1335
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
@@ -1853,20 +1786,17 @@ Package epstopdf Info: Source file: <./images//bfsk_ber.eps>
 (epstopdf)                    date: 2023-01-09 09:03:20
 (epstopdf)                    size: 26088 bytes
 (epstopdf)             Output file: <./images//bfsk_ber-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:37:00
+(epstopdf)                    size: 14806 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./images//bfsk_ber-e
 ps-converted-to.pdf ./images//bfsk_ber.eps>
 (epstopdf)             \includegraphics on input line 1339.
-runsystem(miktex-epstopdf --outfile=./images//bfsk_ber-eps-converted-to.pdf ./i
-mages//bfsk_ber.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./images//bfsk_ber-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-01-09 14:37:00
-(epstopdf)                    size: 14806 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images//bfsk_ber-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./images//bfsk_ber-eps-converted-to.pdf, id=941, 462.72874pt x 346.29375pt>
+<./images//bfsk_ber-eps-converted-to.pdf, id=975, 462.72874pt x 346.29375pt>
 File: ./images//bfsk_ber-eps-converted-to.pdf Graphic file (type pdf)
 <use ./images//bfsk_ber-eps-converted-to.pdf>
 Package pdftex.def Info: ./images//bfsk_ber-eps-converted-to.pdf  used on input
@@ -1901,25 +1831,16 @@ l.1356 \end{document}
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2B57F12D86FB42D9DD0ADB6F5A2B4615;1515
-(rerunfilecheck)             After:  370F5C3C549446838131158A4EED1E92;2147.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 370F5C3C549446838131158A4EED1E92;2147.
  ) 
 Here is how much of TeX's memory you used:
- 40805 strings out of 478338
- 932203 string characters out of 2836231
- 1802780 words of memory out of 3000000
- 58303 multiletter control sequences out of 15000+600000
+ 40810 strings out of 478338
+ 932273 string characters out of 2836231
+ 1803816 words of memory out of 3000000
+ 58308 multiletter control sequences out of 15000+600000
  558938 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,89p,1195b,2063s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1957,9 +1878,9 @@ ts/type1/public/lm/lmsy7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fon
 ts/type1/public/lm/lmsy9.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (11 pages, 812422 bytes).
+Output written on main.pdf (11 pages, 816742 bytes).
 PDF statistics:
- 1235 PDF objects out of 1440 (max. 8388607)
+ 1267 PDF objects out of 1440 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
