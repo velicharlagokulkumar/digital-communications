@@ -98,6 +98,7 @@ columns=fullflexible
 \providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
 \providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
 %\theoremstyle{remark}
+\providecommand{\abs}[1]{\vert#1\vert}
 \newtheorem{rem}{Remark}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 %\providecommand{\abs}[1]{\left\vert#1\right\vert}
@@ -391,6 +392,61 @@ return 0;
 }
 \end{lstlisting}
 \begin{lstlisting}
+double mean(char *str)
+{
+int i=0,c;
+FILE *fp;
+double x, temp=0.0;
+
+fp = fopen(str,"r");
+//get numbers from file
+while(fscanf(fp,"%lf",&x)!=EOF)
+{
+//Count numbers in file
+i=i+1;
+//Add all numbers in file
+temp = temp+x;
+}
+fclose(fp);
+temp = temp/(i-1);
+return temp;
+
+}
+\end{lstlisting}
+\begin{lstlisting}
+double variance(char *str)
+{
+int i=0,j=0,c;
+FILE *fp;
+double x, temp=0.0,value,sumsqr=0,variance=0.0;
+
+fp = fopen(str,"r");
+//get numbers from file
+while(fscanf(fp,"%lf",&x)!=EOF)
+{
+//Count numbers in file
+i=i+1;
+//Add all numbers in file
+temp = temp+x;
+}
+fclose(fp);
+temp = temp/(i-1);
+fp = fopen(str,"r");
+while(fscanf(fp,"%lf",&x)!=EOF)
+{
+  j=j+1;
+  value=x-temp;
+     sumsqr=sumsqr+value*value;
+}
+fclose(fp);
+variance = sumsqr/(j-1);
+return variance;
+}
+
+
+\end{lstlisting}
+
+\begin{lstlisting}
   mean=-0.000283
   variance=0.999702
 \end{lstlisting}
@@ -448,7 +504,7 @@ and plot its CDF.
 \end{figure}
 
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_CDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.3/5.3.py}}}
 \end{center}
 
 \item Find a theoretical expression for $F_V(x)$.
@@ -509,32 +565,34 @@ which is the CDF of the exponential distribution with parameter $\frac{1}{2}$.
 
 
  \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\fbox{\parbox{8cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
 \end{center}
 
 
-\item Find the CDF of $T$.
+\item Find the CDF of $Z$.
  \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\fbox{\parbox{8cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/5.4_cdf.py}}}
 \end{center}
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/5.4_cdf.pdf}
 \caption{CDF of Z}
+\label{fig_6}
 \end{figure}
 
-\item Find the PDF of $T$.
+\item Find the PDF of $Z$.
  \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/5.4_pdf.pdf}
+\label{fig_7}
 \caption{PDF of Z}
 \end{figure}
 
  
  \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/uniform_two.c}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-5/5.4/5.4_pdf.py}}}
 \end{center}
-\item Find the theoretical expressions for the PDF and CDF of $T$.
+\item Find the theoretical expressions for the PDF and CDF of $Z$.
 \begin{align}
 f(z) = 
 \begin{cases}
@@ -554,7 +612,9 @@ F_Z(z) =
 \end{align}
 
 
-\item Verify your results through a plot. 
+\item Verify your results through a plot. \\
+\solution
+ From Figure:6,Figure:7
 \end{enumerate}
 
 
@@ -574,10 +634,10 @@ V = X_1^2 + X_2^2
 \end{equation}
 
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_CDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.1.1/8.1.1_CDF.py}}}
 \end{center}
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_PDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.1.1/8.1.1_PDF.py}}}
 \end{center}
 
 
@@ -612,6 +672,7 @@ find $\alpha$.
 \\
 \solution
 For the value $\alpha=0.5$, the theory matches the simulation.  
+
 The following code generates the CDF of $V$ in Fig. \ref{cdf_v}
 
 \begin{figure}[!ht]
@@ -622,7 +683,7 @@ The following code generates the CDF of $V$ in Fig. \ref{cdf_v}
 \end{figure}
 
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.1/7.1.1_CDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.1.2/8.1.2.py}}}
 \end{center}
 
 
@@ -641,8 +702,8 @@ A = \sqrt{V}
 
 $$
 \begin{aligned}
-F_A(a) & =\Pr{A<a} \\
-& =\Pr{\sqrt{V}<a} \\
+F_A(a) & =\Pr{\left(A<a\right) } \\
+& =\Pr{\left(\sqrt{V}<a\right)} \\
 & =\Pr{\left(V<a^2\right)} \\
 & =F_V\left(a^2\right) \\
 & =1-\exp \left(-\frac{a^2}{2}\right)\\
@@ -664,10 +725,10 @@ using the codes below.
 
 \end{enumerate}
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.3/7.1.3_CDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.1.3/8.1.3_CDF.py}}}
 \end{center}
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.1.3/7.1.3_PDF.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.1.3/8.1.3_PDF.py}}}
 \end{center}
 
 \subsection{Conditional Probability}
@@ -790,13 +851,507 @@ E\sbrak{A^2} = 2\sigma^2\\
 Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t $\gamma$.  Comment.
 \\
 \begin{center}
-\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-7/7.2/7.2.py}}}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-8/8.2/8.2.py}}}
 \end{center}
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/7.2.pdf}
 \end{figure}
 \end{enumerate}
+
+
+\section{Bivariate Random Variables: FSK}
+\subsection{Two Dimensions}
+     Let 
+    \begin{equation}
+    \mbf{y} = A\mbf{x} + \mbf{n},
+    \end{equation}
+    where 
+    \begin{align}
+    x &\in \brak{\mbf{s}_0,\mbf{s}_1}, 
+    \mbf{s}_0 = 
+    \begin{pmatrix}
+    1 
+    \\
+    0
+    \end{pmatrix},
+    \mbf{s}_1 = 
+    \begin{pmatrix}
+    0 
+    \\
+    1
+    \end{pmatrix}
+    \\
+    \mbf{n} &= 
+    \begin{pmatrix}
+    n_1
+    \\
+    n_2
+    \end{pmatrix},
+    n_1,n_2 \sim \gauss{0}{1}.
+    \end{align}
+    \begin{enumerate}
+    \item
+    Plot 
+    %
+    \begin{equation}
+    \mbf{y}|\mbf{s}_0 \text{ and } \mbf{y}|\mbf{s}_1
+    \end{equation}
+    %
+    on the same graph using a scatter plot.\\
+    %
+    \solution The following python code plots the scatter plot when $\mbf{x} = \mbf{s}_0$ and $\mbf{x} = \mbf{s}_1$ in Fig. \ref{fig:scatter_plt_y}
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-9/scatter_plot.py}}}
+\end{center}
+    \begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{images/scatter_plot.png}
+    \caption{Scatter plot of $\vec{y}$ for $A = 10$}
+    \label{fig:scatter_plt_y}
+    \end{figure}
+    %
+    %
+    \item
+    For the above problem, find a decision rule for detecting the symbols $\mbf{s}_0 $ and $\mbf{s}_1$.
+    \\
+   \solution The multivariate Gaussian distribution is defined as
+    %
+    \begin{multline}
+    \label{eq:multivariate}
+    p_{\mathbf{x}}(x_1,\dots,x_k)
+    \\
+    =\frac{1}{\sqrt{\brak{2\pi}^k\abs{\mbf{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{x}-\mbf{\mu}}^T\mbf{\sigma}^{-1}\brak{\mathbf{x}-\mbf{\mu}}}
+    \end{multline}
+    %
+    where $\mbf{\mu}$ is the mean vector, $\mbf{\sigma} = E\sbrak{\brak{\mathbf{x}-\mbf{\mu}}\brak{\mathbf{x}-\mbf{\mu}}^T}$ is the covariance matrix and $\abs{\mbf{\sigma}}$ is the determinant of $\mbf{\sigma}$.
+    For a bivariate gaussian distribution,
+    {\small
+    \begin{multline}
+    \label{eq:bivariate}
+    p(x,y)= \frac{1}{2\pi \sigma_x\sigma_y\sqrt{1-\rho^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho^2}}}
+    \\
+    \times \rsbrak{\cbrak{\frac{\brak{x-\mu_x}^2}{\sigma_x^2}+\frac{\brak{y-\mu_y}^2}{\sigma_y^2}-\frac{2\rho\brak{x-\mu_x}\brak{y-\mu_y}}{\sigma_x\sigma_y}}}
+    \end{multline}
+    }
+    %
+    where
+    %
+    \begin{align}
+    %\mbf{\mu}=
+    &\mbf{\mu}=
+    \begin{pmatrix}
+    \mu_x \\
+    \mu_y
+    \end{pmatrix},
+    \mbf{\Sigma} = 
+    \begin{pmatrix}%[r]
+    \sigma_x^2 & \rho\sigma_x\sigma_y \\
+    \rho\sigma_x\sigma_y & \sigma_y^2
+    \end{pmatrix},\\
+    &\rho = \frac{E\sbrak{\brak{x - \mu_x}\brak{y-\mu_y}}}{\sigma_x\sigma_y}.
+    \end{align}
+    %
+    \begin{align}
+        \mbf{y}|s_0 &= 
+        \begin{pmatrix}
+        A+n_1 \\
+        n_2
+        \end{pmatrix}\\
+        \mbf{y}|s_1 &=  
+        \begin{pmatrix}
+        n_1 \\
+        A+n_2
+        \end{pmatrix}
+        \end{align}
+        Substituting these values in (\ref{eq:bivariate}),
+        \begin{multline}
+        \label{gauss_mutl_var1}
+        p\brak{\mbf{y}|s_0} = \frac{1}{2\pi\sigma_{y_1}\sigma_{y_2}\sqrt{1-\rho_1^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho_1^2}}}
+        \\
+        \times \rsbrak{\cbrak{\frac{\brak{y_1-A}^2}{\sigma_{y_1}^2}+\frac{\brak{y_2}^2}{\sigma_{y_2}^2}-\frac{2\rho_1\brak{y_1-A}\brak{y_2}}{\sigma_{y_1}\sigma_{y_2}}}}
+        \end{multline}
+        \begin{multline}
+        \label{gauss_mutl_var2}
+        p\brak{\mbf{y}|s_1} = \frac{1}{2\pi\sigma_{y_1}\sigma_{y_2}\sqrt{1-\rho_2^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho_2^2}}}
+        \\
+        \times \rsbrak{\cbrak{\frac{\brak{y_1}^2}{\sigma_{y_1}^2}+\frac{\brak{y_2-A}^2}{\sigma_{y_2}^2}-\frac{2\rho_2\brak{y_1}\brak{y_2-A}}{\sigma_{y_1}\sigma_{y_2}}}}
+        \end{multline}
+        where,
+        \begin{align}
+        \label{rho_sig_val}
+        \rho_1 = E[(y_1-A)(y_2)] &= E[n_1 n_2] = 0, \nonumber \\
+        \rho_2 = E[(y_1)(y_2-A)] &= E[n_1 n_2] = 0, \nonumber \\
+        \sigma_{y_1} = \sigma_{y_2} &= 1
+        \end{align}
+        For equiprobably symbols, the MAP criterion is defined as
+        %
+        \begin{align}
+        \label{eq:map_bfsk_dec}
+        p\brak{\vec{y}|s_0} &\dec{s_0}{s_1} p\brak{\vec{y}|s_1}
+        \end{align}
+        Using (\ref{gauss_mutl_var1}) and (\ref{gauss_mutl_var2}) and substituting the values from (\ref{rho_sig_val}),  we get
+        \begin{align}
+        (y_1 -A)^2 + y_2^2 \dec{s_1}{s_0} y_1^2 + (y_2 - A)^2
+        \end{align}
+        On simplifying, we get the decision rule is
+        \begin{align}
+        \label{eq:decision_rule}
+        y_1 \dec{s_0}{s_1} y_2
+        \end{align}
+    %    
+    \item
+    Plot 
+    \begin{equation} 
+    P_e = \pr{\hat{\mbf{x}} = \mbf{s}_1|\mbf{x} = \mbf{s}_0}
+    \end{equation}
+    with respect to the SNR from 0 to 10 dB.
+    \\
+    \solution
+    \begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-9/ber_snr_plot.py}}}
+\end{center}
+    \begin{figure}
+        \centering
+    \includegraphics[width=\columnwidth]{images/ber_snr_plot.png}
+        \caption{$P_e$ with respect to SNR from 0 to 10 dB}
+        \label{fig:ber_snr_plot}
+        \end{figure}
+    %
+    \item
+    Obtain an expression for $P_e$. Verify this by comparing the theory and simulation plots on the same graph.
+    \\
+    \solution 
+    \begin{align}
+    P_e = \pr{\hat{\mbf{x}} = \mbf{s}_1|\mbf{x} = \mbf{s}_0}
+    \end{align}
+    Given that $\mbf{s}_0$ was transmitted, the received signal is
+    \begin{align}
+    \mbf{y}|\mbf{s}_0 = \begin{pmatrix} A \\ 0 \end{pmatrix} + \begin{pmatrix} n_1 \\ n_2 \end{pmatrix}
+    \end{align}
+    From (\ref{eq:decision_rule}), the probability of error is given by 
+    \begin{align}
+    P_e &= \pr{y_1 < y_2 |\mbf{s}_0} = \pr{A+n_1 < n_2}\\
+    &= \pr{n_2 - n_1 > A}
+    \end{align}
+    Note that $n_2 - n_1 \sim \gauss{0}{2}$. Thus,
+    \begin{align}
+    P_e &= \pr{\sqrt{2}w > A}\\
+    \pr{w > \dfrac{A}{\sqrt{2}}}\\
+    \Rightarrow P_e &= \qfunc{\frac{A}{\sqrt{2}}}
+    \end{align}
+    where $w \sim \gauss{0}{1}$. The following code plots the $P_e$ curve in Fig. (\ref{fig:ber_snr_plot}).
+    \end{enumerate}
+\section{Exercises}
+\subsection{BPSK}
+\begin{enumerate}
+\item 
+The {\em signal constellation diagram} for BPSK is given by Fig. \ref{fig:bpsk_const}.  The symbols $s_0$ and $s_1$ are equiprobable.  $\sqrt{E_b}$ is the energy transmitted per bit. Assuming a zero mean additive white gaussian noise (AWGN) with variance $\frac{N_0}{2}$,
+The decision rule is
+\begin{equation}
+y \dec{s_0}{s_1} 0
+\end{equation}
+Repeat the previous exercise using the MAP criterion.
+
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{images/bpsk.eps}
+\caption{}
+\label{fig:bpsk_const}
+\end{figure}
+\solution
+According to MAP detection rule
+%, we will decode the received signal  as symbol s for which  p\brak{s|y} is more.
+\begin{align}
+    \hat{s} &= \max_{s \in  \cbrak{s_0,s_1}} p\brak{s|y}
+    \label{eq:ee18btech11042_3}
+\\
+    \implies p\brak{s_0|y} &\dec{s_0}{s_1} p\brak{s_1|y}
+    \label{eq:ee18btech11042_4}
+\end{align}
+Using Bayes rule,
+\begin{align}
+    p\brak{s_0|y} &= \frac{p\brak{y|s_0}p\brak{s_0}}{p\brak{y}}
+    \label{eq:ee18btech11042_5}
+\\
+    p\brak{s_1|y} &= \frac{p\brak{y|s_1}p\brak{s_1}}{p\brak{y}}
+    \label{eq:ee18btech11042_6}
+\end{align}
+Since symbols are equi probable,  $p\brak{s_0} =  p\brak{s_1}$.  Hence the decision becomes
+\begin{align}
+    \frac{p\brak{y|s_0}p\brak{s_0}}{p\brak{y}} &\dec{s_0}{s_1}  \frac{p\brak{y|s_1}p\brak{s_1}}{p\brak{y}}
+    \label{eq:ee18btech11042_7}
+\\
+    \implies p\brak{y|s_0} &\dec{s_0}{s_1} p\brak{y|s_1}
+    \label{eq:ee18btech11042_8}
+\end{align}
+The above condition is known as the maximum-likelihood (ML) criterion.      \eqref{eq:ee18btech11042_8}
+can be expressed as
+{\small
+\begin{align}
+    \frac{1}{\sqrt{2\pi}} \exp{-\frac{(y-\sqrt{E_b})^2}{\frac{N_oN_0}{2}}}  \dec{s_0}{s_1}   
+    \frac{1}{\sqrt{2\pi}} \exp{-\frac{(y+\sqrt{E_b})^2}{\frac{N_oN_0}{2}}}
+    \label{eq:ee18btech11042_9}
+\end{align}
+}
+\begin{align}
+     \implies (y+\sqrt{E_b})^2 &\dec{s_0}{s_1} (y - \sqrt{E_b})^2
+     \label{eq:ee18btech11042_10}
+\\
+    \implies y &\dec{s_0}{s_1} 0
+    \label{eq:ee18btech11042_11}
+\end{align}
+
+
+
+
+\item The PDF of $w \sim \gauss{0}{1}$ is given by
+%
+\begin{equation}
+p_{w}(x) = \frac{1}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}}, -\infty < x < \infty
+\end{equation}
+and the complementary error function is defined as
+\begin{equation}
+\operatorname {erfc} (x)={\frac {2}{\sqrt {\pi }}}\int _{x}^{\infty }e^{-t^{2}}\,dt.
+\end{equation}
+%
+Show that 
+\begin{equation}
+Q(x) = \frac{1}{2}\operatorname {erfc}\left({\frac  {x}{{\sqrt  {2}}}}\right)
+\end{equation}
+\solution 
+we know that
+\begin{equation}
+\operatorname {erfc} (x)={\frac {2}{\sqrt {\pi }}}\int _{x}^{\infty }e^{-t^{2}}\,dt.
+\end{equation}
+\begin{equation}
+Q(u) = \frac{1}{2\pi}\int^{\infty}_{u}e^{-\frac{t^2}{2}}\,dt
+\end{equation}
+
+\begin{align}
+ u=\frac{u'}{\sqrt{2}}  ,u'=\sqrt{2}u\\
+ du=\frac{du'}{\sqrt{2}}
+\end{align}
+
+\begin{align}
+\operatorname {erfc} (x)&={\frac {2}{\sqrt {\pi }}}\int _{x}^{\infty }e^{-u^{2}/2}\,\frac{du'}{\sqrt{2}}  \\
+&={\frac {2}{\sqrt {2\pi }}}\int _{\sqrt{2}x}^{\infty }e^{-u^{2}/2}\,du'\\
+\operatorname {erfc} (x)&=2Q(\sqrt{2}x)\\
+\implies Q(\sqrt{2}x)&=\frac{1}{2}\operatorname {erfc} (x)
+\end{align}
+
+
+\begin{equation}
+\therefore Q(x) = \frac{1}{2}\operatorname {erfc}\left({\frac  {x}{{\sqrt  {2}}}}\right)
+\end{equation}
+
+
+\item
+Verify the bit error rate (BER) plots for BPSK through simulation and analysis for 0 to 10 dB. \\
+\solution
+The following code yields Fig. \ref{fig:bpsk_ber}
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-10/bpsk_ber.py}}}
+\end{center}
+%	\
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{images/bpsk2.eps}
+\caption{}
+\label{fig:bpsk_ber}
+\end{figure}
+\item
+Show that
+\begin{equation}
+Q(x) = \frac{1}{\pi}\int^{\frac{\pi}{2}}_{0}e^{-\frac{x^2}{2\sin^2 \theta}}\,d\theta
+\end{equation}
+\solution 
+
+\end{enumerate}
+
+
+
+\subsection{Coherent BFSK}
+\begin{enumerate}
+\item
+The signal constellation for binary frequency shift keying (BFSK) is given in Fig. \ref{fig:bfsk_const}.The received symbols are given by 
+\begin{align}
+\mathbf{y}|s_0 = 
+\myvec{
+\sqrt{E_b} \\
+0
+}
++
+\myvec{
+ n_{1}\\
+n_{2}
+},
+\end{align}
+and 
+\begin{align}
+\mathbf{y}|s_1 = 
+\myvec{
+0\\
+\sqrt{E_b} 
+}
++
+\myvec{
+n_{1}\\
+ n_{2}
+},
+\end{align}
+where $n_1,n_2 \sim \gauss{0}{\frac{N_0}{2}}$. and
+$
+\mathbf{y} = 
+\myvec{
+y_{1}\\
+ y_{2}
+}
+$.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{bfsk_const.eps}
+\caption{}
+\label{fig:bfsk_const}
+\end{figure}
+decision rule for BFSK from Fig. \ref{fig:bfsk_const}. is
+\begin{equation}
+y_1 \dec{s_0}{s_1} y_2
+\end{equation}
+Repeat the above using the MAP criterion.\\
+\solution 
+ The multivariate Gaussian distribution is defined as
+%
+\begin{multline}
+\label{eq:multivariate}
+p_{\mathbf{x}}(x_1,\dots,x_k)
+\\
+=\frac{1}{\sqrt{\brak{2\pi}^k\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{x}-\bm{\mu}}^T\bm{\sigma}^{-1}\brak{\mathbf{x}-\bm{\mu}}}
+\end{multline}
+%
+where $\bm{\mu}$ is the mean vector, $\bm{\sigma} = E\sbrak{\brak{\mathbf{x}-\bm{\mu}}\brak{\mathbf{x}-\bm{\mu}}^T}$ is the covariance matrix and $\abs{\bm{\sigma}}$ is the determinant of $\bm{\Sigma}$.
+Show that the PDF of the {\em bivariate} Gaussian is
+{\small
+\begin{multline}
+\label{eq:bivariate}
+p(x,y)= \frac{1}{2\pi \sigma_x\sigma_y\sqrt{1-\rho^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho^2}}}
+\\
+\times \rsbrak{\cbrak{\frac{\brak{x-\mu_x}^2}{\sigma_x^2}+\frac{\brak{y-\mu_y}^2}{\sigma_y^2}-\frac{2\rho\brak{x-\mu_x}\brak{y-\mu_y}}{\sigma_x\sigma_y}}}
+\end{multline}
+}
+%
+where
+%
+\begin{align}
+%\bm{\mu}=
+\bm{\mu}=
+\begin{pmatrix}
+\mu_x \\
+\mu_y
+\end{pmatrix},
+\bm{\Sigma} = 
+\begin{pmatrix}%[r]
+\sigma_x^2 & \rho\sigma_x\sigma_y \\
+\rho\sigma_x\sigma_y & \sigma_y^2
+\end{pmatrix}
+\end{align}
+
+According to the MAP criterion, assuming equiprobably symbols,
+%
+\begin{equation}
+\label{eq:map_bfsk_dec}
+%p\brak{\mathbf{y}|s_0} \dec{s_0}{s_1} p\brak{\mathbf{y}|s_1}
+p\brak{s_0|\vec{y}} \dec{s_0}{s_1} p\brak{s_1|\vec{y}}
+\end{equation}
+Use \eqref{eq:bivariate} in \eqref{eq:map_bfsk_dec}  to obtain \eqref{eq:map_bfsk_dec}.
+\\
+
+\begin{definition}
+The joint PDF of $X,Y$ is given by
+\begin{multline}
+\label{eq:bivariate2}
+p(x,y)= \frac{1}{2\pi \sigma_x\sigma_y\sqrt{1-\rho^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho^2}}}
+\\
+\times \rsbrak{\cbrak{\frac{\brak{x-\mu_x}^2}{\sigma_x^2}+\frac{\brak{y-\mu_y}^2}{\sigma_y^2}-\frac{2\rho\brak{x-\mu_x}\brak{y-\mu_y}}{\sigma_x\sigma_y}}}
+\end{multline}
+%
+where
+\begin{align}
+\mu_x &= E\sbrak{X},
+\sigma_x^2 = \text{var}\brak{X},
+\rho = \frac{E\sbrak{\brak{X - \mu_x}\brak{Y-\mu_y}}}{\sigma_x\sigma_y}.
+\end{align}
+\end{definition}
+%
+
+
+
+
+
+
+\item
+Derive and plot the probability of error.  Verify through simulation.
+
+\solution Given that $s_0$ was transmitted, the received symbols are
+\begin{align}
+\mathbf{y}|s_0 = 
+\begin{pmatrix}
+\sqrt{E_b} \\
+0
+\end{pmatrix}
++
+\begin{pmatrix}
+ n_{1}\\
+n_{2}
+\end{pmatrix},
+\end{align}
+From \eqref{eq:map_bfsk_dec}, 
+the probability of error is given by
+\begin{align}
+P_e &= \pr{y_1 < y_2|s_0} = \pr{\sqrt{E_b} + n_1 < n_2}
+\\
+&= \pr{ n_2-n_1 > \sqrt{E_b} } 
+\label{eq:bfsk_proof_n0}
+\end{align}
+Note that $n_2-n_1 \sim \gauss{0}{N_0}$. Thus, 
+\begin{align}
+P_e &= \pr{ \sqrt{N_0}w > \sqrt{E_b} }  =  \pr{ w > \sqrt{\frac{E_b}{N_0}} }
+%= \pr{ X > \sqrt{E_b} }
+\\
+\implies 
+P_e & = \qfunc{\sqrt{\frac{E_b}{N_0}}}
+\end{align}
+where 
+%$X \sim \gauss{0}{N_0}$
+%\\
+$w \sim \gauss{0}{1}$.  
+%Then $X = \sqrt{N_0}w$. Substituting this in \eqref{eq:fsk_proof_n0},
+%where $\qfunc{x} \define \pr{w > x}, x \ge 0$.
+%
+The following code plots the BER curves in Fig. \ref{fig:bfsk_ber}
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-10/bfsk_ber.py}}}
+\end{center}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{bfsk_ber.eps}
+\caption{}
+\label{fig:bfsk_ber}
+\end{figure}
+
+\end{enumerate}
+%
+
+
+
+
+
+
+
+
+
 
 \end{document}
 

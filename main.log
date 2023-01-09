@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  6 JAN 2023 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.27)  9 JAN 2023 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,42 +1076,42 @@ Package hyperref Info: Link coloring ON on input line 68.
 \c@example=\count360
 \c@rem=\count361
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-34.
+35.
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-34.
+35.
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-134.
+135.
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-134.
+135.
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 134.
+(Font)              <12> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 134.
+(Font)              <8> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 134.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 134
+(Font)              <6> on input line 135.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 135
 .
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 134
+LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 .
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/amsfonts\umsb.fd
@@ -1120,73 +1120,73 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images/4.1.4.pdf, id=43, 462.52798pt x 346.89601pt>
 File: images/4.1.4.pdf Graphic file (type pdf)
 <use images/4.1.4.pdf>
-Package pdftex.def Info: images/4.1.4.pdf  used on input line 141.
+Package pdftex.def Info: images/4.1.4.pdf  used on input line 142.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 142.
+(Font)              <10> on input line 143.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 142.
+(Font)              <7> on input line 143.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 142.
+(Font)              <5> on input line 143.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-146.
+147.
 
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 146--147
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 147--148
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 159--160
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 160--161
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 169--170
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 170--171
  [] 
  []
 
 <images/uni_cdf.pdf, id=48, 462.52798pt x 346.89601pt>
 File: images/uni_cdf.pdf Graphic file (type pdf)
 <use images/uni_cdf.pdf>
-Package pdftex.def Info: images/uni_cdf.pdf  used on input line 173.
+Package pdftex.def Info: images/uni_cdf.pdf  used on input line 174.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 <./images//iith_logo3.png, id=49, 1116.17pt x 1045.9075pt>
 File: ./images//iith_logo3.png Graphic file (type png)
 <use ./images//iith_logo3.png>
-Package pdftex.def Info: ./images//iith_logo3.png  used on input line 213.
+Package pdftex.def Info: ./images//iith_logo3.png  used on input line 214.
 (pdftex.def)             Requested size: 145.1072pt x 135.97275pt.
 [1{C:/Users/velic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1197,206 +1197,150 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \end{equation}
+l.214 \end{equation}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \end{equation}
+l.214 \end{equation}
                      <./images//iith_logo3.png> <./images/4.1.4.pdf> <./images/
 uni_cdf.pdf>]
 LaTeX Font Info:    Trying to load font information for OML+lmss on input line 
-224.
-LaTeX Font Info:    No file OMLlmss.fd. on input line 224.
+225.
+LaTeX Font Info:    No file OMLlmss.fd. on input line 225.
 
 
 LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 224.
+(Font)              for symbol `textless' on input line 225.
 
 LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
-230.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 230.
+231.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 231.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 230.
+(Font)              for symbol `textbraceleft' on input line 231.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-243.
+244.
 (C:\Users\velic\AppData\Local\Programs\MiKTeX2\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 300--301
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 301--302
  [] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 338--339
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 339--340
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 346--347
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 347--348
  [] 
  []
 
 <images/gau_cdf.pdf, id=240, 462.52798pt x 346.89601pt>
 File: images/gau_cdf.pdf Graphic file (type pdf)
 <use images/gau_cdf.pdf>
-Package pdftex.def Info: images/gau_cdf.pdf  used on input line 351.
+Package pdftex.def Info: images/gau_cdf.pdf  used on input line 352.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 364--365
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 365--366
  [] 
  []
 
 <images/gau_pdf.pdf, id=243, 462.52798pt x 346.89601pt>
 File: images/gau_pdf.pdf Graphic file (type pdf)
 <use images/gau_pdf.pdf>
-Package pdftex.def Info: images/gau_pdf.pdf  used on input line 368.
+Package pdftex.def Info: images/gau_pdf.pdf  used on input line 369.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 399--400
- [] 
- []
-
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.420 $$
-        
+l.428 i=
+        i+1;
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.420 $$
-         <./images/gau_cdf.pdf> <./images/gau_pdf.pdf>]
-<images/5.3.pdf, id=348, 462.52798pt x 346.89601pt>
+l.428 i=
+        i+1; <./images/gau_cdf.pdf> <./images/gau_pdf.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 455--456
+ [] 
+ []
+
+<images/5.3.pdf, id=373, 462.52798pt x 346.89601pt>
 File: images/5.3.pdf Graphic file (type pdf)
 <use images/5.3.pdf>
-Package pdftex.def Info: images/5.3.pdf  used on input line 446.
+Package pdftex.def Info: images/5.3.pdf  used on input line 502.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 451--452
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--512
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 512--513
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--518
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--518
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 518--519
- [] 
- []
-
-<images/5.4_cdf.pdf, id=353, 462.52798pt x 346.89601pt>
-File: images/5.4_cdf.pdf Graphic file (type pdf)
-<use images/5.4_cdf.pdf>
-Package pdftex.def Info: images/5.4_cdf.pdf  used on input line 522.
-(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/5.4_pdf.pdf, id=354, 462.52798pt x 346.89601pt>
-File: images/5.4_pdf.pdf Graphic file (type pdf)
-<use images/5.4_pdf.pdf>
-Package pdftex.def Info: images/5.4_pdf.pdf  used on input line 529.
-(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 535--536
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 507--508
  [] 
  []
 
@@ -1405,215 +1349,617 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.554 \end{align}
-                  <./images/5.3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+l.564 	\end{align}
+                   <./images/5.3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 577--578
+Overfull \hbox (8.34724pt too wide) in paragraph at lines 568--569
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 580--581
+Overfull \hbox (8.34724pt too wide) in paragraph at lines 574--575
  [] 
  []
 
-<images/7.1.1_CDF.pdf, id=436, 462.52798pt x 346.89601pt>
+<images/5.4_cdf.pdf, id=469, 462.52798pt x 346.89601pt>
+File: images/5.4_cdf.pdf Graphic file (type pdf)
+<use images/5.4_cdf.pdf>
+Package pdftex.def Info: images/5.4_cdf.pdf  used on input line 578.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<images/5.4_pdf.pdf, id=470, 462.52798pt x 346.89601pt>
+File: images/5.4_pdf.pdf Graphic file (type pdf)
+<use images/5.4_pdf.pdf>
+Package pdftex.def Info: images/5.4_pdf.pdf  used on input line 586.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 593--594
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 637--638
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 640--641
+ [] 
+ []
+
+<images/7.1.1_CDF.pdf, id=474, 462.52798pt x 346.89601pt>
 File: images/7.1.1_CDF.pdf Graphic file (type pdf)
 <use images/7.1.1_CDF.pdf>
-Package pdftex.def Info: images/7.1.1_CDF.pdf  used on input line 586.
+Package pdftex.def Info: images/7.1.1_CDF.pdf  used on input line 646.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/7.1.1_PDF.pdf, id=437, 462.52798pt x 346.89601pt>
+<images/7.1.1_PDF.pdf, id=475, 462.52798pt x 346.89601pt>
 File: images/7.1.1_PDF.pdf Graphic file (type pdf)
 <use images/7.1.1_PDF.pdf>
-Package pdftex.def Info: images/7.1.1_PDF.pdf  used on input line 592.
+Package pdftex.def Info: images/7.1.1_PDF.pdf  used on input line 652.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/7.1.2.png, id=439, 390.45876pt x 262.9825pt>
-File: images/7.1.2.png Graphic file (type png)
-<use images/7.1.2.png>
-Package pdftex.def Info: images/7.1.2.png  used on input line 619.
-(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
-[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
-\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
- []
-
-
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 625--626
- [] 
- []
-
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 $$
-        
+l.669 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 $$
-        
+l.669 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 $$
-        
+l.669 \end{equation}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 $$
-        
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.651 $$
-         <./images/5.4_cdf.pdf> <./images/5.4_pdf.pdf> <./images/7.1.1_CDF.pdf>
- <./images/7.1.1_PDF.pdf> <./images/7.1.2.png>]
-<images/7.1.3_CDF.pdf, id=618, 462.52798pt x 346.89601pt>
+l.669 \end{equation}
+                     <./images/5.4_cdf.pdf> <./images/5.4_pdf.pdf> <./images/7.
+1.1_CDF.pdf> <./images/7.1.1_PDF.pdf>]
+<images/7.1.2.png, id=656, 390.45876pt x 262.9825pt>
+File: images/7.1.2.png Graphic file (type png)
+<use images/7.1.2.png>
+Package pdftex.def Info: images/7.1.2.png  used on input line 680.
+(pdftex.def)             Requested size: 195.2289pt x 131.49092pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--686
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--686
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 686--687
+ [] 
+ []
+
+<images/7.1.3_CDF.pdf, id=660, 462.52798pt x 346.89601pt>
 File: images/7.1.3_CDF.pdf Graphic file (type pdf)
 <use images/7.1.3_CDF.pdf>
-Package pdftex.def Info: images/7.1.3_CDF.pdf  used on input line 657.
+Package pdftex.def Info: images/7.1.3_CDF.pdf  used on input line 718.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<images/7.1.3_PDF.pdf, id=619, 462.52798pt x 346.89601pt>
+<images/7.1.3_PDF.pdf, id=661, 462.52798pt x 346.89601pt>
 File: images/7.1.3_PDF.pdf Graphic file (type pdf)
 <use images/7.1.3_PDF.pdf>
-Package pdftex.def Info: images/7.1.3_PDF.pdf  used on input line 660.
+Package pdftex.def Info: images/7.1.3_PDF.pdf  used on input line 721.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 667--667
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 667--667
+Underfull \hbox (badness 10000) in paragraph at lines 728--728
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--688
+Underfull \hbox (badness 10000) in paragraph at lines 746--749
 
  []
 
 [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.791 \end{align}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.770 \begin{align}
-                   
+l.791 \end{align}
+                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.770 \begin{align}
-                    <./images/7.1.3_CDF.pdf> <./images/7.1.3_PDF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 790--792
+l.791 \end{align}
+                  <./images/7.1.2.png> <./images/7.1.3_CDF.pdf> <./images/7.1.3
+_PDF.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 851--853
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
+Underfull \hbox (badness 10000) in paragraph at lines 854--854
 [][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--793
+Underfull \hbox (badness 10000) in paragraph at lines 854--854
 \OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
  []
 
 
-Overfull \hbox (14.0377pt too wide) in paragraph at lines 793--794
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 854--855
  [] 
  []
 
-<images/7.2.pdf, id=733, 462.52798pt x 346.89601pt>
+<images/7.2.pdf, id=773, 462.52798pt x 346.89601pt>
 File: images/7.2.pdf Graphic file (type pdf)
 <use images/7.2.pdf>
-Package pdftex.def Info: images/7.2.pdf  used on input line 797.
+Package pdftex.def Info: images/7.2.pdf  used on input line 858.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-[7
 
- <./images/7.2.pdf>] (main.aux)
+Overfull \hbox (20.49529pt too wide) in paragraph at lines 863--863
+|[]\OT1/lmss/bx/n/14.4 Bivariate Ran-dom Vari-ables: FSK| 
+ []
+
+
+LaTeX Warning: Reference `fig:scatter_plt_y' on page 7 undefined on input line 
+903.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--905
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--905
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 905--906
+ [] 
+ []
+
+<images/scatter_plot.png, id=775, 462.528pt x 346.896pt>
+File: images/scatter_plot.png Graphic file (type png)
+<use images/scatter_plot.png>
+Package pdftex.def Info: images/scatter_plot.png  used on input line 909.
+(pdftex.def)             Requested size: 251.07481pt x 188.30557pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 930.
+[7 <./images/7.2.pdf>]
+
+LaTeX Warning: Reference `eq:bivariate' on page 8 undefined on input line 967.
+
+
+LaTeX Warning: Reference `gauss_mutl_var1' on page 8 undefined on input line 99
+3.
+
+
+LaTeX Warning: Reference `gauss_mutl_var2' on page 8 undefined on input line 99
+3.
+
+
+LaTeX Warning: Reference `rho_sig_val' on page 8 undefined on input line 993.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1012
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1012
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 1012--1013
+ [] 
+ []
+
+<images/ber_snr_plot.png, id=857, 462.528pt x 346.896pt>
+File: images/ber_snr_plot.png Graphic file (type png)
+<use images/ber_snr_plot.png>
+Package pdftex.def Info: images/ber_snr_plot.png  used on input line 1016.
+(pdftex.def)             Requested size: 251.07481pt x 188.30557pt.
+
+LaTeX Warning: Reference `eq:decision_rule' on page 8 undefined on input line 1
+032.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1042     \end{align}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1042     \end{align}
+                       <./images/scatter_plot.png> <./images/ber_snr_plot.png>]
+
+LaTeX Warning: Reference `fig:ber_snr_plot' on page 9 undefined on input line 1
+043.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1049
+.
+
+LaTeX Warning: Reference `fig:bpsk_const' on page 9 undefined on input line 104
+9.
+
+Package epstopdf Info: Source file: <images/bpsk.eps>
+(epstopdf)                    date: 2023-01-09 09:03:20
+(epstopdf)                    size: 354312 bytes
+(epstopdf)             Output file: <images/bpsk-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/bpsk-eps-conv
+erted-to.pdf images/bpsk.eps>
+(epstopdf)             \includegraphics on input line 1059.
+runsystem(miktex-epstopdf --outfile=images/bpsk-eps-converted-to.pdf images/bps
+k.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <images/bpsk-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:36:21
+(epstopdf)                    size: 9745 bytes.
+
+
+pdfTeX warning: pdflatex (file ./images/bpsk-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<images/bpsk-eps-converted-to.pdf, id=892, 562.1pt x 308.15125pt>
+File: images/bpsk-eps-converted-to.pdf Graphic file (type pdf)
+<use images/bpsk-eps-converted-to.pdf>
+Package pdftex.def Info: images/bpsk-eps-converted-to.pdf  used on input line 1
+059.
+(pdftex.def)             Requested size: 251.07481pt x 137.64174pt.
+
+Overfull \hbox (0.9929pt too wide) in paragraph at lines 1080--1082
+\OT1/lmss/m/n/10 Since sym-bols are equi prob-a-ble, $\OML/lmm/m/it/10 p [] \OT
+1/lmr/m/n/10 = \OML/lmm/m/it/10 p []$\OT1/lmss/m/n/10 . Hence
+ []
+
+
+LaTeX Warning: Reference `eq:ee18btech11042_8' on page 9 undefined on input lin
+e 1089.
+
+
+Overfull \hbox (7.03691pt too wide) in paragraph at lines 1088--1092
+\OT1/lmss/m/n/10 The above con-di-tion is known as the maximum-likelihood
+ []
+
+
+LaTeX Warning: Reference `fig:bpsk_ber' on page 9 undefined on input line 1153.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1155
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1155
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 1155--1156
+ [] 
+ []
+
+Package epstopdf Info: Source file: <images/bpsk2.eps>
+(epstopdf)                    date: 2023-01-09 09:03:20
+(epstopdf)                    size: 26265 bytes
+(epstopdf)             Output file: <images/bpsk2-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/bpsk2-eps-con
+verted-to.pdf images/bpsk2.eps>
+(epstopdf)             \includegraphics on input line 1160.
+runsystem(miktex-epstopdf --outfile=images/bpsk2-eps-converted-to.pdf images/bp
+sk2.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <images/bpsk2-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:36:55
+(epstopdf)                    size: 14820 bytes.
+
+
+pdfTeX warning: pdflatex (file ./images/bpsk2-eps-converted-to.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/bpsk2-eps-converted-to.pdf, id=894, 462.72874pt x 346.29375pt>
+File: images/bpsk2-eps-converted-to.pdf Graphic file (type pdf)
+<use images/bpsk2-eps-converted-to.pdf>
+Package pdftex.def Info: images/bpsk2-eps-converted-to.pdf  used on input line 
+1160.
+(pdftex.def)             Requested size: 251.07481pt x 187.8994pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:bfsk_const' on page 9 undefined on input line 117
+8.
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1190 \end{align}
+                   <./images/bpsk-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./images//bfsk_const.eps>
+(epstopdf)                    date: 2023-01-09 09:03:20
+(epstopdf)                    size: 321689 bytes
+(epstopdf)             Output file: <./images//bfsk_const-eps-converted-to.pdf>
+
+(epstopdf)             Command: <miktex-epstopdf --outfile=./images//bfsk_const
+-eps-converted-to.pdf ./images//bfsk_const.eps>
+(epstopdf)             \includegraphics on input line 1215.
+runsystem(miktex-epstopdf --outfile=./images//bfsk_const-eps-converted-to.pdf .
+/images//bfsk_const.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./images//bfsk_const-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-01-09 14:36:58
+(epstopdf)                    size: 10643 bytes.
+
+
+pdfTeX warning: pdflatex (file ./images//bfsk_const-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./images//bfsk_const-eps-converted-to.pdf, id=939, 517.935pt x 303.1325pt>
+File: ./images//bfsk_const-eps-converted-to.pdf Graphic file (type pdf)
+<use ./images//bfsk_const-eps-converted-to.pdf>
+Package pdftex.def Info: ./images//bfsk_const-eps-converted-to.pdf  used on inp
+ut line 1215.
+(pdftex.def)             Requested size: 251.07481pt x 146.9497pt.
+
+LaTeX Warning: Reference `fig:bfsk_const' on page 10 undefined on input line 12
+19.
+
+
+Overfull \hbox (2.70966pt too wide) in paragraph at lines 1232--1237
+\OT1/lmss/m/n/10 where $\OML/lmm/b/it/10 ^^V$ \OT1/lmss/m/n/10 is the mean vec-
+tor, $\OML/lmm/b/it/10 ^^[ \OT1/lmr/m/n/10 = \OML/lmm/m/it/10 E[] []$
+ []
+
+
+LaTeX Warning: Reference `eq:bivariate' on page 10 undefined on input line 1268
+.
+
+
+LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
+268.
+
+
+LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
+268.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1270
+
+ []
+
+
+Overfull \hbox (16.37323pt too wide) detected at line 1278
+ []$[] \OMS/lmsy/m/n/10 ^^B [] []$ []  
+ []
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1285
+.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1285
+.
+
+Overfull \hbox (9.56084pt too wide) detected at line 1285
+[]
+ []
+
+
+LaTeX Warning: Reference `eq:map_bfsk_dec' on page 10 undefined on input line 1
+310.
+
+
+LaTeX Warning: Reference `fig:bfsk_ber' on page 10 undefined on input line 1333
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1335
+[][][]$\OT1/lmtt/m/n/10 https : / / github . com / velicharlagokulkumar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1335
+\OT1/lmtt/m/n/10 digital-[]communications / blob / main / codes /
+ []
+
+
+Overfull \hbox (14.0377pt too wide) in paragraph at lines 1335--1336
+ [] 
+ []
+
+Package epstopdf Info: Source file: <./images//bfsk_ber.eps>
+(epstopdf)                    date: 2023-01-09 09:03:20
+(epstopdf)                    size: 26088 bytes
+(epstopdf)             Output file: <./images//bfsk_ber-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./images//bfsk_ber-e
+ps-converted-to.pdf ./images//bfsk_ber.eps>
+(epstopdf)             \includegraphics on input line 1339.
+runsystem(miktex-epstopdf --outfile=./images//bfsk_ber-eps-converted-to.pdf ./i
+mages//bfsk_ber.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./images//bfsk_ber-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-01-09 14:37:00
+(epstopdf)                    size: 14806 bytes.
+
+
+pdfTeX warning: pdflatex (file ./images//bfsk_ber-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./images//bfsk_ber-eps-converted-to.pdf, id=941, 462.72874pt x 346.29375pt>
+File: ./images//bfsk_ber-eps-converted-to.pdf Graphic file (type pdf)
+<use ./images//bfsk_ber-eps-converted-to.pdf>
+Package pdftex.def Info: ./images//bfsk_ber-eps-converted-to.pdf  used on input
+ line 1339.
+(pdftex.def)             Requested size: 251.07481pt x 187.8994pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1356 \end{document}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1356 \end{document}
+                      <./images/bpsk2-eps-converted-to.pdf> <./images//bfsk_con
+st-eps-converted-to.pdf>] [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1356 \end{document}
+                     
+
+ <./images//bfsk_ber-eps-converted-to.pdf>] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2B57F12D86FB42D9DD0ADB6F5A2B4615;1515.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 2B57F12D86FB42D9DD0ADB6F5A2B4615;1515
+(rerunfilecheck)             After:  370F5C3C549446838131158A4EED1E92;2147.
  ) 
 Here is how much of TeX's memory you used:
- 40571 strings out of 478338
- 928254 string characters out of 2836231
+ 40805 strings out of 478338
+ 932203 string characters out of 2836231
  1802780 words of memory out of 3000000
- 58220 multiletter control sequences out of 15000+600000
- 540327 words of font info for 88 fonts, out of 8000000 for 9000
+ 58303 multiletter control sequences out of 15000+600000
+ 558938 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,89p,1195b,1657s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-rm.enc}{
-C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathit.enc}
-{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-ts1.enc}{C
-:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathex.enc}{
-C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathsy.enc}
+ 84i,16n,89p,1195b,2063s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathit.e
+nc}{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-rm.enc}
+{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathsy.enc
+}{C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-ts1.enc}{
+C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-mathex.enc}
 {C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/enc/dvips/lm/lm-rmtt.enc}<
 C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/p
-ublic/lm/lmex10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
-public/lm/lmmi10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
-/public/lm/lmmi5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
-/public/lm/lmmi7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
-/public/lm/lmr10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
-/public/lm/lmr5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
-public/lm/lmr7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/p
-ublic/lm/lmss10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
-public/lm/lmss12.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
-/public/lm/lmss17.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
-1/public/lm/lmssbx10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/t
-ype1/public/lm/lmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
-type1/public/lm/lmsy7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
-type1/public/lm/lmtt10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts
-/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (7 pages, 557112 bytes).
+ublic/lm/lmbx10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmbx7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmex10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmmi10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmmi5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmmi6.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmmi7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmmi9.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmmib10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/ty
+pe1/public/lm/lmr10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/ty
+pe1/public/lm/lmr5.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/typ
+e1/public/lm/lmr6.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmr7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmr9.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1/
+public/lm/lmss10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type1
+/public/lm/lmss12.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/type
+1/public/lm/lmss17.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/typ
+e1/public/lm/lmss9.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/typ
+e1/public/lm/lmssbx10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fonts/
+type1/public/lm/lmsso10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/font
+s/type1/public/lm/lmsy10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fon
+ts/type1/public/lm/lmsy7.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fon
+ts/type1/public/lm/lmsy9.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fon
+ts/type1/public/lm/lmtt10.pfb><C:/Users/velic/AppData/Local/Programs/MiKTeX2/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (11 pages, 812422 bytes).
 PDF statistics:
- 913 PDF objects out of 1000 (max. 8388607)
- 206 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1235 PDF objects out of 1440 (max. 8388607)
+ 343 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
