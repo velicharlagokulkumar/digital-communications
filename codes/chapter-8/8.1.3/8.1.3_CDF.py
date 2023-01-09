@@ -29,5 +29,5 @@ plt.grid() #creating the grid
 plt.xlabel('$x$')
 plt.ylabel('$F_A(x)$')
 plt.legend(['simulated' , 'Theory'])
-plt.savefig('7.1.3_CDF.pdf')
+plt.savefig('8.1.3_CDF.pdf')
 plt.show()

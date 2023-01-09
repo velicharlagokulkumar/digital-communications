@@ -44,5 +44,5 @@ plt.ylabel('$P_e(\gamma)$')
 plt.legend(["Theoretical", "Simulated"])
 plt.grid()
 
-plt.savefig('7.2.pdf')
+plt.savefig('8.2.pdf')
 plt.show() #opening the plot window
