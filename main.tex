@@ -447,7 +447,7 @@ return variance;
 \end{lstlisting}
 
 \begin{lstlisting}
-  mean=0.000283
+  mean= 0.000283
   variance=0.999702
 \end{lstlisting}
 
@@ -1167,7 +1167,23 @@ Show that
 Q(x) = \frac{1}{\pi}\int^{\frac{\pi}{2}}_{0}e^{-\frac{x^2}{2\sin^2 \theta}}\,d\theta
 \end{equation}
 \solution 
-
+\solution Consider the bivariate gaussian distribution of $X,Y \sim \gauss{0}{1}$,
+\begin{equation}
+	p_{X,Y}(x,y) = \frac{1}{2\pi}\exp\left(-\frac{x^2+y^2}{2}\right)
+	\label{eq:bivariate_std_gaussian_pdf}
+\end{equation}
+Q-function can be expressed with \eqref{eq:bivariate_std_gaussian_pdf} as
+\begin{align}
+	Q(z) &= \int_{z}^{\infty}\int_{-\infty}^{\infty} p_{X,Y}(x,y) \,dx\,dy \\
+	\label{eq:qfunc_biv_integ}
+	&= \frac{1}{2\pi}\int_{z}^{\infty}\int_{-\infty}^{\infty} \exp\left(-\frac{x^2+y^2}{2}\right) \,dx\,dy
+\end{align}
+Transforming the integral in \eqref{eq:qfunc_biv_integ} to polar coordinates $(r,\theta)$ for $z > 0$,
+\begin{align}
+	Q(z) &= \frac{1}{2\pi}\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\int_{\frac{z}{\sin\theta}}^{\infty} \exp\left(-\frac{r^2}{2}\right)r \,dr\,d\theta\\
+	&= \frac{1}{2\pi}\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \exp\left(-\frac{z^2}{2\sin^2\theta}\right) \,d\theta\\
+	&= \frac{1}{\pi}\int_{0}^{\frac{\pi}{2}} \exp\left(-\frac{z^2}{2\sin^2\theta}\right) \,d\theta \text{ , for $z > 0$}
+\end{align}
 \end{enumerate}
 
 
@@ -1334,6 +1350,8 @@ The following code plots the BER curves in Fig. \ref{fig:bfsk_ber}
 \begin{center}
 \fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-10/bfsk_ber.py}}}
 \end{center}
+
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=\columnwidth]{bfsk_ber.eps}
@@ -1341,18 +1359,8 @@ The following code plots the BER curves in Fig. \ref{fig:bfsk_ber}
 \label{fig:bfsk_ber}
 \end{figure}
 
+
 \end{enumerate}
-%
-
-
-
-
-
-
-
-
-
-
 \end{document}
 
 
