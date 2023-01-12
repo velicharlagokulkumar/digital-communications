@@ -103,7 +103,7 @@ columns=fullflexible
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
 %\providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
-%\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
 %\providecommand{\norm}[1]{\lVert#1\rVert}
 \providecommand{\mtx}[1]{\mathbf{#1}}
 %\providecommand{\mean}[1]{E\left[ #1 \right]}
@@ -172,7 +172,7 @@ F_{U}(x) = \pr{U \le x}
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/uni_cdf.pdf}
-\caption{CDF of U}
+\caption{cdf of U}
 \label{fig:cdf of u}
 \end{figure}
 \item
@@ -860,6 +860,159 @@ Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t 
 \end{enumerate}
 
 
+
+
+
+\section{Maximum Likelihood Detection:BPSK}
+\subsection{Maximum Likelihood}
+\begin{enumerate}
+\item Generate equiprobable $X \in \cbrak{1,-1}$,$Y = AX+N$ \\ Plot $Y$ using a scatter plot.\\
+		where $A = 5$ dB,  and $N \sim \gauss{0}{1}$.\\
+  \solution  
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-6/scatter_plot.py}}}
+\end{center}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{images/scatter.png}
+\caption{Scatter plot of $Y$}
+\label{fig:bpsk_scatter}
+\end{figure}
+\item Guess how to estimate $X$ from $Y$.\\
+\solution
+X and Y can be estimated by decision rule\\
+\begin{equation}
+y \dec{1}{-1} 0
+\label{eq:bpsk_decision}
+\end{equation}
+\item
+\label{ml-ch4_sim}
+Find 
+\begin{equation}
+	P_{e|0} = \pr{\hat{X} = -1|X=1}
+\end{equation}
+and 
+\begin{equation}
+	P_{e|1} = \pr{\hat{X} = 1|X=-1}
+\end{equation}\\
+\solution using decision rule in 
+\begin{align}
+	\pr{\hat{X} = -1|X=1} &= \pr{Y < 0|X=1}&\\
+	&= \pr{AX + N < 0|X=1}&\\ 
+	&= \pr{A + N < 0}&\\
+	&= \pr{N < -A}\\
+        &= \pr{N > A}
+\end{align}
+\begin{align}
+	\pr{\hat{X} = 1|X=-1} &= \pr{Y > 0|X=-1}&\\
+	&= \pr{N > A}
+\end{align}
+\begin{align*}
+  \pr{N > A}&=\pr{\frac{N-0}{1}> \frac{A-0}{1}}\\&=Q(\frac{A-0}{1})=Q(A)
+\end{align*}
+\begin{equation}
+   P_{e|0} = P_{e|1}=Q(A)\\ 
+\end{equation}
+\item Find $P_e$ assuming that $X$ has equiprobable symbols.\\
+\solution
+
+Since the symbols are equiprobable, it is sufficient if the error is calculated assuming that a 1 was sent.  This results in
+\begin{align}
+P_e &= \pr{Y < 0|X=1} = \pr{A + N < 0}
+\\
+&= \pr{ N< -A } = \pr{ N > A }
+\label{eq:bpsk_proof_n0}
+\end{align}
+since $N$ has a symmetric pdf.
+Let $w \sim \gauss{0}{1}$.  Then $N = \sqrt{1}w$. Substituting this in \eqref{eq:bpsk_proof_n0},
+\begin{align}
+P_e &=  \pr{ w > A }
+\\
+&= \qfunc{A}
+\end{align}
+%
+where 
+\begin{align}
+\label{eq:qfunc_def}
+\qfunc{x} &\define \pr{w > x}, x \ge 0 .
+\\
+&= \frac{1}{\pi}\int^{\frac{\pi}{2}}_{0}e^{-\frac{x^2}{2\sin^2 \theta}}\,d\theta
+\end{align}
+
+
+\item
+Verify by plotting  the theoretical $P_e$ with respect to $A$ from 0 to 10 dB.\\
+\begin{center}
+\fbox{\parbox{8.2cm}{\url{https://github.com/velicharlagokulkumar/digital-communications/blob/main/codes/chapter-6/ber_snr_plot.py}}}
+\end{center}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{images/ber_snr.png}
+\caption{$P_e$ versus $A$ plot}
+\label{fig:bpsk_pe_snr}
+\end{figure}
+%
+\item Now, consider a threshold $\delta$  while estimating $X$ from $Y$. Find the value of $\delta$ that minimize the theoretical $P_e$.\\
+\label{prob:bpsk_delta_equi}
+\solution
+
+Let $\pr{0}$, $\pr{1}$ is a probability of transmitting bit zero and bit one;\\$P_{e|0}$,$P_{e|1}$is a probability of error when detecting bit zero and bit one.
+
+
+\begin{equation}
+	P_e = P_{e|0} \pr{0}+P_{e|1} \pr{1}
+ \label{eq:error_prob}
+\end{equation}
+
+Let $V_0$,$V_1$ be a nominal signal voltage of bit zero and  one  signal at the transmitter.
+$$
+\begin{aligned}
+& P(e \mid 0)=\int_ \delta^{\infty} \frac{1}{\sigma \sqrt{2 \pi}} \exp \left(-\left(\nu-V_0\right)^2 / 2 \sigma^2\right) d \nu \\
+& P(e \mid 1)=\int_{-\infty}^ \delta \frac{1}{\sigma \sqrt{2 \pi}} \exp \left(-\left(\nu-V_1\right)^2 / 2 \sigma^2\right) d \nu
+\end{aligned}
+$$
+where  $\delta$ is a detection threshold.
+Differentiating $P(e)$ of  \eqref{eq:error_prob} w.r.t. $T$, we arrive at
+$$
+\begin{gathered}
+-\pr{0} \frac{1}{\sigma \sqrt{2 \pi}} \exp \left(-\left( \delta-V_0\right)^2 / 2 \sigma^2\right)+ 
+\\ \pr{1} \frac{1}{\sigma \sqrt{2 \pi}} \exp \left(-\left( \delta-V_1\right)^2 / 2 \sigma^2\right)
+\end{gathered}
+$$
+To find an optimal threshold, we equate the above expression to zero:
+$$
+\begin{gathered}
+\pr{0} \exp \left(-\frac{\left( \delta-V_0\right)^2}{2 \sigma^2}\right)=\pr{0} \exp \left(-\frac{\left( \delta-V_1\right)^2}{2 \sigma^2}\right) \\
+ \delta=\frac{V_0+V_1}{2}+\sigma^2 \ln \left(\frac{\Pr{(1)}}{\pr{0}}\right)
+\end{gathered}
+$$
+\begin{align*}
+  \implies \Pr(1) = \Pr(0) = \frac{1}{2} \\
+  \implies V_0=1,V_1=-1 \\
+  \therefore  \delta =0 
+\end{align*}
+
+
+
+
+\item Repeat the above exercise when 
+\label{prob:bpsk_decision_uneqi}
+	\begin{align}
+		p_{X}(0) = p
+	\end{align}\\
+\solution 
+\begin{align}
+	P_e &= (1-p)P_{e|1} + pP_{e|0}
+\end{align}
+From Above problem we know
+$$
+\begin{gathered}
+ \delta=\frac{V_0+V_1}{2}+\sigma^2 \ln \left(\frac{P(1)}{P(0)}\right)\\
+\delta =\ln \left(\frac{1-p}{p}\right)
+\end{gathered}
+$$
+\end{enumerate}
+
 \section{Bivariate Random Variables: FSK}
 \subsection{Two Dimensions}
      Let 
@@ -915,91 +1068,42 @@ Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t 
     \item
     For the above problem, find a decision rule for detecting the symbols $\mbf{s}_0 $ and $\mbf{s}_1$.
     \\
-   \solution The multivariate Gaussian distribution is defined as
-    %
-    \begin{multline}
-    \label{eq:multivariate}
-    p_{\mathbf{x}}(x_1,\dots,x_k)
-    \\
-    =\frac{1}{\sqrt{\brak{2\pi}^k\abs{\mbf{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{x}-\mbf{\mu}}^T\mbf{\sigma}^{-1}\brak{\mathbf{x}-\mbf{\mu}}}
-    \end{multline}
-    %
-    where $\mbf{\mu}$ is the mean vector, $\mbf{\sigma} = E\sbrak{\brak{\mathbf{x}-\mbf{\mu}}\brak{\mathbf{x}-\mbf{\mu}}^T}$ is the covariance matrix and $\abs{\mbf{\sigma}}$ is the determinant of $\mbf{\sigma}$.
-    For a bivariate gaussian distribution,
-    {\small
-    \begin{multline}
-    \label{eq:bivariate}
-    p(x,y)= \frac{1}{2\pi \sigma_x\sigma_y\sqrt{1-\rho^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho^2}}}
-    \\
-    \times \rsbrak{\cbrak{\frac{\brak{x-\mu_x}^2}{\sigma_x^2}+\frac{\brak{y-\mu_y}^2}{\sigma_y^2}-\frac{2\rho\brak{x-\mu_x}\brak{y-\mu_y}}{\sigma_x\sigma_y}}}
-    \end{multline}
-    }
-    %
-    where
-    %
+  \solution 
+$$
+\begin{aligned}
+& x(t)=s(t)+w(t) \\
+\Rightarrow & \left\langle x(t), \phi_i(t)\right\rangle=\left\langle s(t), \phi_i(t)\right\rangle+\left\langle w(t), \phi_i(t)\right\rangle \\
+\end{aligned}
+$$
+similarly Here,   \begin{equation}
+    \mbf{y} = A\mbf{x} + \mbf{n},
+    \end{equation}
     \begin{align}
-    %\mbf{\mu}=
-    &\mbf{\mu}=
-    \begin{pmatrix}
-    \mu_x \\
-    \mu_y
-    \end{pmatrix},
-    \mbf{\Sigma} = 
-    \begin{pmatrix}%[r]
-    \sigma_x^2 & \rho\sigma_x\sigma_y \\
-    \rho\sigma_x\sigma_y & \sigma_y^2
-    \end{pmatrix},\\
-    &\rho = \frac{E\sbrak{\brak{x - \mu_x}\brak{y-\mu_y}}}{\sigma_x\sigma_y}.
+            \myvec{y_1 \\ y_2}=A*Either \myvec{1 \\ 0} or \myvec{0 \\ 1}+\myvec{n_1 \\ n_2} \\
+             \myvec{y_1 \\ y_2}=Either \myvec{A \\ 0} or \myvec{0 \\ A}+\myvec{n_1 \\ n_2}
     \end{align}
-    %
-    \begin{align}
-        \mbf{y}|s_0 &= 
-        \begin{pmatrix}
-        A+n_1 \\
-        n_2
-        \end{pmatrix}\\
-        \mbf{y}|s_1 &=  
-        \begin{pmatrix}
-        n_1 \\
-        A+n_2
-        \end{pmatrix}
-        \end{align}
-        Substituting these values in (\ref{eq:bivariate}),
-        \begin{multline}
-        \label{gauss_mutl_var1}
-        p\brak{\mbf{y}|s_0} = \frac{1}{2\pi\sigma_{y_1}\sigma_{y_2}\sqrt{1-\rho_1^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho_1^2}}}
-        \\
-        \times \rsbrak{\cbrak{\frac{\brak{y_1-A}^2}{\sigma_{y_1}^2}+\frac{\brak{y_2}^2}{\sigma_{y_2}^2}-\frac{2\rho_1\brak{y_1-A}\brak{y_2}}{\sigma_{y_1}\sigma_{y_2}}}}
-        \end{multline}
-        \begin{multline}
-        \label{gauss_mutl_var2}
-        p\brak{\mbf{y}|s_1} = \frac{1}{2\pi\sigma_{y_1}\sigma_{y_2}\sqrt{1-\rho_2^2}}\exp\lsbrak{-\frac{1}{2\brak{1-\rho_2^2}}}
-        \\
-        \times \rsbrak{\cbrak{\frac{\brak{y_1}^2}{\sigma_{y_1}^2}+\frac{\brak{y_2-A}^2}{\sigma_{y_2}^2}-\frac{2\rho_2\brak{y_1}\brak{y_2-A}}{\sigma_{y_1}\sigma_{y_2}}}}
-        \end{multline}
-        where,
-        \begin{align}
-        \label{rho_sig_val}
-        \rho_1 = E[(y_1-A)(y_2)] &= E[n_1 n_2] = 0, \nonumber \\
-        \rho_2 = E[(y_1)(y_2-A)] &= E[n_1 n_2] = 0, \nonumber \\
-        \sigma_{y_1} = \sigma_{y_2} &= 1
-        \end{align}
-        For equiprobably symbols, the MAP criterion is defined as
-        %
-        \begin{align}
-        \label{eq:map_bfsk_dec}
-        p\brak{\vec{y}|s_0} &\dec{s_0}{s_1} p\brak{\vec{y}|s_1}
-        \end{align}
-        Using (\ref{gauss_mutl_var1}) and (\ref{gauss_mutl_var2}) and substituting the values from (\ref{rho_sig_val}),  we get
-        \begin{align}
-        (y_1 -A)^2 + y_2^2 \dec{s_1}{s_0} y_1^2 + (y_2 - A)^2
-        \end{align}
-        On simplifying, we get the decision rule is
-        \begin{align}
-        \label{eq:decision_rule}
-        y_1 \dec{s_0}{s_1} y_2
-        \end{align}
-    %    
+
+$$
+\begin{aligned}
+\Rightarrow & \hat{m}=\arg \max \left\{P\left(\boldsymbol{y} \mid\left(A \ 0\right)^T\right), P\left(\boldsymbol{y} \mid\left(0 \  A \right)^T\right)\right\} \\
+\Rightarrow & y_1-y_2 \underset{\hat{m}=s_1}{\stackrel{\hat{m}=s_0}{\lessgtr}} 0  
+\end{aligned}
+$$
+%\begin{equation}
+ %    \quad\left(x_1-x_2\right)=\pm \sqrt{E_b}+\left(w_1-w_2\right)
+%\end{equation}
+\begin{equation}
+\therefore y_1 \underset{s_1}{\stackrel{s_0}{\lessgtr}} y_2
+\end{equation}
+
+
+
+
+
+
+
+
+
     \item
     Plot 
     \begin{equation} 
@@ -1029,7 +1133,7 @@ Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t 
     \begin{align}
     \mbf{y}|\mbf{s}_0 = \begin{pmatrix} A \\ 0 \end{pmatrix} + \begin{pmatrix} n_1 \\ n_2 \end{pmatrix}
     \end{align}
-    From (\ref{eq:decision_rule}), the probability of error is given by 
+    From decision rule, the probability of error is given by 
     \begin{align}
     P_e &= \pr{y_1 < y_2 |\mbf{s}_0} = \pr{A+n_1 < n_2}\\
     &= \pr{n_2 - n_1 > A}
@@ -1040,7 +1144,7 @@ Plot $P_e$ in problems \ref{ch4_sim} and \ref{ch4_anal} on the same graph w.r.t 
     \pr{w > \dfrac{A}{\sqrt{2}}}\\
     \Rightarrow P_e &= \qfunc{\frac{A}{\sqrt{2}}}
     \end{align}
-    where $w \sim \gauss{0}{1}$. The following code plots the $P_e$ curve in Fig. (\ref{fig:ber_snr_plot}).
+    where $w \sim \gauss{0}{1}$.Above code plots the $P_e$ curve in Fig. (\ref{fig:ber_snr_plot}).
     \end{enumerate}
 \section{Exercises}
 \subsection{BPSK}

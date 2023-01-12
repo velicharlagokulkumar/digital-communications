@@ -172,7 +172,7 @@ F_{U}(x) = \pr{U \le x}
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{images/uni_cdf.pdf}
-\caption{cdf of U}
+\caption{CDF of U}
 \label{fig:cdf of u}
 \end{figure}
 \item
@@ -1069,41 +1069,68 @@ $$
     For the above problem, find a decision rule for detecting the symbols $\mbf{s}_0 $ and $\mbf{s}_1$.
     \\
   \solution 
-$$
-\begin{aligned}
-& x(t)=s(t)+w(t) \\
-\Rightarrow & \left\langle x(t), \phi_i(t)\right\rangle=\left\langle s(t), \phi_i(t)\right\rangle+\left\langle w(t), \phi_i(t)\right\rangle \\
-\end{aligned}
-$$
-similarly Here,   \begin{equation}
-    \mbf{y} = A\mbf{x} + \mbf{n},
-    \end{equation}
-    \begin{align}
-            \myvec{y_1 \\ y_2}=A*Either \myvec{1 \\ 0} or \myvec{0 \\ 1}+\myvec{n_1 \\ n_2} \\
-             \myvec{y_1 \\ y_2}=Either \myvec{A \\ 0} or \myvec{0 \\ A}+\myvec{n_1 \\ n_2}
-    \end{align}
+The multivariate Gaussian distribution is defined as
+%
+\begin{multline}
+\label{eq:multivariate}
+p_{\mathbf{y}}(y_1,\dots,y_k)
+\\
+=\frac{1}{\sqrt{\brak{2\pi}^k\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{\mu}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{\mu}}}
+\end{multline}
+%
+where $\bm{\mu}$ is the mean vector, $\bm{\sigma} = E\sbrak{\brak{\mathbf{x}-\bm{\mu}}\brak{\mathbf{x}-\bm{\mu}}^T}$ is the covariance matrix and $\abs{\bm{\sigma}}$ is the determinant of $\bm{\Sigma}$.
+\begin{multline}
+\label{eq:multivariate}
+p_{\mathbf{y}}(y_1,y_2)
+\\
+=\frac{1}{2\pi\sqrt{\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{\mu}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{\mu}}}
+\end{multline}
+\begin{multline}
+p\brak{\vec{y}|s_0}
+\\
+=\frac{1}{2\pi\sqrt{\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{s_0}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{s_0}}}
+\label{eq:multivariate1}
+\end{multline}
 
-$$
-\begin{aligned}
-\Rightarrow & \hat{m}=\arg \max \left\{P\left(\boldsymbol{y} \mid\left(A \ 0\right)^T\right), P\left(\boldsymbol{y} \mid\left(0 \  A \right)^T\right)\right\} \\
-\Rightarrow & y_1-y_2 \underset{\hat{m}=s_1}{\stackrel{\hat{m}=s_0}{\lessgtr}} 0  
-\end{aligned}
-$$
-%\begin{equation}
- %    \quad\left(x_1-x_2\right)=\pm \sqrt{E_b}+\left(w_1-w_2\right)
-%\end{equation}
+\begin{multline}
+p\brak{\vec{y}|s_1}
+\\
+=\frac{1}{2\pi\sqrt{\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{s_1}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{s_1}}}
+\label{eq:multivariate2}
+\end{multline}
+
+
+
+According to the MAP criterion, assuming equiprobably symbols,optimal decison criteria can be found by equating \eqref{eq:multivariate1},\eqref{eq:multivariate2}
+
 \begin{equation}
-\therefore y_1 \underset{s_1}{\stackrel{s_0}{\lessgtr}} y_2
+p\brak{\vec{y}|s_0}=p\brak{\vec{y}|s_1}
+\label{eq:map_bfsk_dec1}
 \end{equation}
 
+\begin{multline*}
+\frac{1}{2\pi\sqrt{\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{s_0}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{s_0}}} \\ =\frac{1}{2\pi\sqrt{\abs{\bm{\sigma}}}}\exp\cbrak{-\frac{1}{2}\brak{\mathbf{y}-\bm{s_0}}^T\bm{\sigma}^{-1}\brak{\mathbf{y}-\bm{s_0}}}
+\end{multline*}
+\begin{align*}
+\brak{\vec{y}-\vec{s}_0}^\top \brak{\vec{y}-\vec{s}_0} &= \brak{\vec{y}-\vec{s}_1}^\top \brak{\vec{y}-\vec{s}_1}\\
+\vec{y}^\top\vec{y} - 2\vec{s}_0^\top \vec{y} + \vec{s}_0^T\vec{s}_0 &= \vec{y}^\top\vec{y} - 2\vec{s}_1^\top \vec{y} + \vec{s}_1^T\vec{s}_1\\
+ 2\brak{\vec{s}_1-\vec{s}_0}^\top \vec{y} &= \norm{\vec{s}_1}^2 - \norm{\vec{s}_0}^2\\
+\brak{\vec{s}_1-\vec{s}_0}^\top \vec{y} &= 0\\
+\myvec{-1\\1}^\top \vec{y} &= 0
+\end{align*}
+compare with the equation of line $ n^\top$y=c\\
+\begin{align*}
+  \implies y1=y2  
+\end{align*}
+which is decsion making line as shown in below fig
+\ref{fig:bfsk_const2}
 
-
-
-
-
-
-
-
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\columnwidth]{bfsk_const.eps}
+\caption{}
+\label{fig:bfsk_const2}
+\end{figure}
     \item
     Plot 
     \begin{equation} 
@@ -1352,7 +1379,7 @@ p_{\mathbf{x}}(x_1,\dots,x_k)
 \end{multline}
 %
 where $\bm{\mu}$ is the mean vector, $\bm{\sigma} = E\sbrak{\brak{\mathbf{x}-\bm{\mu}}\brak{\mathbf{x}-\bm{\mu}}^T}$ is the covariance matrix and $\abs{\bm{\sigma}}$ is the determinant of $\bm{\Sigma}$.
-Show that the PDF of the {\em bivariate} Gaussian is
+The PDF of the {\em bivariate} Gaussian is
 {\small
 \begin{multline}
 \label{eq:bivariate}
